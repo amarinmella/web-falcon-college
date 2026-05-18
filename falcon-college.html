@@ -17,30 +17,43 @@
 </head>
 <body class="bg-background text-on-background font-body-md antialiased min-h-screen flex flex-col">
     <!-- TopNavBar -->
-    <nav class="bg-primary dark:bg-primary-container text-tertiary-fixed dark:text-tertiary-fixed-dim docked full-width top-0 sticky z-50 border-b border-outline-variant/20 shadow-md">
-        <div class="flex justify-between items-center px-margin-desktop py-4 max-w-container-max mx-auto">
+    <nav class="bg-primary text-white full-width top-0 sticky z-50 shadow-md border-b border-white/10">
+        <div class="flex justify-between items-center px-6 lg:px-12 py-3 max-w-[1440px] mx-auto gap-4 md:gap-8">
             <!-- Brand Logo -->
-            <a class="font-headline-sm text-headline-sm font-bold text-tertiary-fixed dark:text-tertiary-fixed-dim hover:bg-primary-fixed/10 transition-all duration-300 px-2 py-1 rounded" href="index.html">
-                <img src="https://lh3.googleusercontent.com/aida/ADBb0ujLNfuQF14KWpz5zBaV8LJJ5Al2xh5vNzY8rPEAq97PmV9pssVxBFmy2dDkf0NbPioH4ZuzC8Qdw6FGKSgfaJ1kV9h2EH-eXOA7VGEHxih-809t1WCnHoshhZA7DaJCnp7LjQBEq4UEQn3qjzoIQhjPyRN_GsO6fSfxkZ3KMW5I59IzBCwK8iXWc3mihSs1EI82JSMPGxStY9mIBpCTrQ5NFsL_jJ6eXygJ-KvyB-ykYb3Sb17ASCZtb8jB" alt="Falcon College Logo" class="h-12 w-auto object-contain" style="filter: brightness(0) invert(1);">
+            <a class="shrink-0 transition-transform hover:scale-105" href="index.html">
+                <img src="/logo-falcon-college_.svg" alt="Falcon College Logo" class="h-[50px] w-auto max-w-[150px] object-contain">
             </a>
             <!-- Desktop Navigation -->
-            <ul class="hidden md:flex items-center space-x-gutter">
-                <li class=""><a class="text-on-primary/80 hover:text-on-primary transition-colors font-label-md text-label-md hover:bg-primary-fixed/10 transition-all duration-300 px-3 py-2 rounded" href="#">Institución</a></li>
-                <li class=""><a class="text-on-primary/80 hover:text-on-primary transition-colors font-label-md text-label-md hover:bg-primary-fixed/10 transition-all duration-300 px-3 py-2 rounded" href="#">Admisión</a></li>
-                <li class=""><a class="text-on-primary/80 hover:text-on-primary transition-colors font-label-md text-label-md hover:bg-primary-fixed/10 transition-all duration-300 px-3 py-2 rounded" href="#">Académica</a></li>
-                <li class=""><a class="text-on-primary/80 hover:text-on-primary transition-colors font-label-md text-label-md hover:bg-primary-fixed/10 transition-all duration-300 px-3 py-2 rounded" href="#">Noticias</a></li>
-                <li class=""><a class="text-on-primary/80 hover:text-on-primary transition-colors font-label-md text-label-md hover:bg-primary-fixed/10 transition-all duration-300 px-3 py-2 rounded" href="#">Galería</a></li>
-                <li class=""><a class="text-on-primary/80 hover:text-on-primary transition-colors font-label-md text-label-md hover:bg-primary-fixed/10 transition-all duration-300 px-3 py-2 rounded" href="#">Contacto</a></li>
+            <ul class="hidden lg:flex items-center space-x-6 xl:space-x-8 flex-grow justify-center">
+                <li><a class="text-white/90 hover:text-white transition-colors font-semibold text-[15px] tracking-wide" href="#">Institución</a></li>
+                <li><a class="text-white/90 hover:text-white transition-colors font-semibold text-[15px] tracking-wide" href="#">Admisión</a></li>
+                <li><a class="text-white/90 hover:text-white transition-colors font-semibold text-[15px] tracking-wide" href="#">Académica</a></li>
+                <li><a class="text-white/90 hover:text-white transition-colors font-semibold text-[15px] tracking-wide" href="#">Noticias</a></li>
+                <li><a class="text-white/90 hover:text-white transition-colors font-semibold text-[15px] tracking-wide" href="#">Galería</a></li>
+                <li><a class="text-white/90 hover:text-white transition-colors font-semibold text-[15px] tracking-wide" href="#">Contacto</a></li>
+                <li><a class="text-white/90 hover:text-white transition-colors font-semibold text-[15px] tracking-wide" href="index.html">Cambiar de Colegio</a></li>
             </ul>
             <!-- Actions -->
-            <div class="hidden lg:flex items-center space-x-stack-md">
-                <a href="index.html" class="text-on-primary/80 hover:text-on-primary transition-colors font-label-md text-label-md px-4 py-2 rounded hover:bg-primary-fixed/10 transition-all duration-300">Cambiar de Colegio</a>
-                <button class="bg-tertiary-fixed text-on-tertiary-fixed font-label-md text-label-md px-6 py-2.5 rounded hover:bg-tertiary-fixed-dim transition-colors scale-95 transition-transform">Postula 2027</button>
+            <div class="hidden lg:flex items-center shrink-0">
+                <a href="#" class="bg-[#FFE299] text-primary font-bold text-[15px] px-6 py-2.5 rounded shadow-sm hover:bg-[#FFD566] hover:-translate-y-0.5 hover:shadow-md transition-all duration-200">Postula 2027</a>
             </div>
             <!-- Mobile Menu Toggle -->
-            <button class="md:hidden text-tertiary-fixed p-2">
+            <button class="mobile-menu-btn lg:hidden text-white p-2 focus:outline-none">
                 <span class="material-symbols-outlined">menu</span>
             </button>
+        </div>
+        <!-- Mobile Menu -->
+        <div class="mobile-menu hidden lg:hidden bg-primary border-t border-white/10 px-6 py-4 absolute w-full left-0 shadow-lg">
+            <ul class="flex flex-col space-y-4">
+                <li><a class="block text-white/90 hover:text-white font-semibold text-[15px]" href="#">Institución</a></li>
+                <li><a class="block text-white/90 hover:text-white font-semibold text-[15px]" href="#">Admisión</a></li>
+                <li><a class="block text-white/90 hover:text-white font-semibold text-[15px]" href="#">Académica</a></li>
+                <li><a class="block text-white/90 hover:text-white font-semibold text-[15px]" href="#">Noticias</a></li>
+                <li><a class="block text-white/90 hover:text-white font-semibold text-[15px]" href="#">Galería</a></li>
+                <li><a class="block text-white/90 hover:text-white font-semibold text-[15px]" href="#">Contacto</a></li>
+                <li><a class="block text-white/90 hover:text-white font-semibold text-[15px]" href="index.html">Cambiar de Colegio</a></li>
+                <li class="pt-2"><a href="#" class="block text-center bg-[#FFE299] text-primary font-bold text-[15px] px-6 py-3 rounded hover:bg-[#FFD566] transition-colors">Postula 2027</a></li>
+            </ul>
         </div>
     </nav>
     <!-- Main Content -->
@@ -198,5 +211,6 @@
             </div>
         </div>
     </footer>
+    <script type="module" src="./src/main.js"></script>
 </body>
 </html>
