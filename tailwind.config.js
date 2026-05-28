@@ -51,7 +51,8 @@ module.exports = {
                 "on-primary": "#ffffff",
                 "on-error-container": "#93000a",
                 "on-primary-fixed": "#001c37",
-                "on-tertiary-fixed-variant": "#5a4302"
+                "on-tertiary-fixed-variant": "#5a4302",
+                "warm-coral": "#F26A5A"
             },
             borderRadius: {
                 "DEFAULT": "0.25rem",

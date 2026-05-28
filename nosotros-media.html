@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html class="light" lang="es">
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <title>Falcon College | Nuestra Institución</title>
+    <!-- Material Symbols -->
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com" rel="preconnect">
+    <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&amp;family=Playfair+Display:ital,wght@0,600;0,700;1,600&amp;display=swap" rel="stylesheet">
+    
+    <!-- Vite CSS -->
+    <link rel="stylesheet" href="./src/input.css">
+</head>
+<body class="bg-background text-on-background font-body-md antialiased min-h-screen flex flex-col">
+    <!-- TopNavBar -->
+    <nav class="bg-primary text-white full-width top-0 sticky z-50 shadow-md border-b border-white/10">
+        <div class="flex justify-between items-center px-6 lg:px-12 py-3 max-w-[1440px] mx-auto gap-4 md:gap-8">
+            <!-- Brand Logo -->
+            <a class="shrink-0 logo-glow-hover flex items-center gap-3" href="index.html">
+                <img src="/logo-falcon-college_.svg" alt="Falcon College Logo" class="h-[50px] w-auto max-w-[150px] object-contain">
+                <span class="text-white font-bold text-xl uppercase tracking-wider">Media</span>
+            </a>
+            <!-- Desktop Navigation -->
+            <ul class="hidden lg:flex items-center space-x-6 xl:space-x-8 flex-grow justify-center">
+                <li><a class="relative text-white/90 hover:text-white transition-colors font-semibold text-[15px] tracking-wide after:content-[''] after:absolute after:-bottom-1 after:left-0 after:w-full after:h-[2px] after:bg-[#FFE299] after:scale-x-100 after:transition-transform after:duration-300 after:origin-left" href="nosotros-media.html">Institución</a></li>
+                <li><a class="relative text-white/90 hover:text-white transition-colors font-semibold text-[15px] tracking-wide after:content-[''] after:absolute after:-bottom-1 after:left-0 after:w-full after:h-[2px] after:bg-[#FFE299] after:scale-x-0 hover:after:scale-x-100 after:transition-transform after:duration-300 after:origin-left" href="convivencia-media.html">RICE y Protocolos</a></li>
+                <li><a class="relative text-white/90 hover:text-white transition-colors font-semibold text-[15px] tracking-wide after:content-[''] after:absolute after:-bottom-1 after:left-0 after:w-full after:h-[2px] after:bg-[#FFE299] after:scale-x-0 hover:after:scale-x-100 after:transition-transform after:duration-300 after:origin-left" href="admision-media.html">Admisión</a></li>
+                <li><a class="relative text-white/90 hover:text-white transition-colors font-semibold text-[15px] tracking-wide after:content-[''] after:absolute after:-bottom-1 after:left-0 after:w-full after:h-[2px] after:bg-[#FFE299] after:scale-x-0 hover:after:scale-x-100 after:transition-transform after:duration-300 after:origin-left" href="tecnico-profesional.html">Académica</a></li>
+                <li><a class="relative text-white/90 hover:text-white transition-colors font-semibold text-[15px] tracking-wide after:content-[''] after:absolute after:-bottom-1 after:left-0 after:w-full after:h-[2px] after:bg-[#FFE299] after:scale-x-0 hover:after:scale-x-100 after:transition-transform after:duration-300 after:origin-left" href="#">Noticias</a></li>
+                <li><a class="relative text-white/90 hover:text-white transition-colors font-semibold text-[15px] tracking-wide after:content-[''] after:absolute after:-bottom-1 after:left-0 after:w-full after:h-[2px] after:bg-[#FFE299] after:scale-x-0 hover:after:scale-x-100 after:transition-transform after:duration-300 after:origin-left" href="galeria-media.html">Galería</a></li>
+                <li><a class="relative text-white/90 hover:text-white transition-colors font-semibold text-[15px] tracking-wide after:content-[''] after:absolute after:-bottom-1 after:left-0 after:w-full after:h-[2px] after:bg-[#FFE299] after:scale-x-0 hover:after:scale-x-100 after:transition-transform after:duration-300 after:origin-left" href="contacto-media.html">Contacto</a></li>
+                <li><a class="relative text-white/90 hover:text-white transition-colors font-semibold text-[15px] tracking-wide after:content-[''] after:absolute after:-bottom-1 after:left-0 after:w-full after:h-[2px] after:bg-[#FFE299] after:scale-x-0 hover:after:scale-x-100 after:transition-transform after:duration-300 after:origin-left" href="index.html">Cambiar de Colegio</a></li>
+            </ul>
+            <!-- Actions -->
+            <div class="hidden lg:flex items-center shrink-0">
+                <a href="#" class="bg-[#FFE299] text-primary font-bold text-[15px] px-6 py-2.5 rounded shadow-sm hover:bg-[#FFD566] hover:-translate-y-0.5 hover:shadow-md transition-all duration-200">Postula 2027</a>
+            </div>
+            <!-- Mobile Menu Toggle -->
+            <button class="mobile-menu-btn lg:hidden text-white p-2 focus:outline-none">
+                <span class="material-symbols-outlined">menu</span>
+            </button>
+        </div>
+        <!-- Mobile Menu -->
+        <div class="mobile-menu mobile-menu-custom lg:hidden bg-primary border-t border-white/10 px-6 py-4 absolute w-full left-0 shadow-lg">
+            <ul class="flex flex-col space-y-4">
+                <li><a class="block text-white/90 hover:text-white font-semibold text-[15px]" href="nosotros-media.html">Institución</a></li>
+                <li><a class="block text-white/90 hover:text-white font-semibold text-[15px]" href="convivencia-media.html">RICE y Protocolos</a></li>
+                <li><a class="block text-white/90 hover:text-white font-semibold text-[15px]" href="admision-media.html">Admisión</a></li>
+                <li><a class="block text-white/90 hover:text-white font-semibold text-[15px]" href="tecnico-profesional.html">Académica</a></li>
+                <li><a class="block text-white/90 hover:text-white font-semibold text-[15px]" href="#">Noticias</a></li>
+                <li><a class="block text-white/90 hover:text-white font-semibold text-[15px]" href="galeria-media.html">Galería</a></li>
+                <li><a class="block text-white/90 hover:text-white font-semibold text-[15px]" href="contacto-media.html">Contacto</a></li>
+                <li><a class="block text-white/90 hover:text-white font-semibold text-[15px]" href="index.html">Cambiar de Colegio</a></li>
+                <li class="pt-2"><a href="#" class="block text-center bg-[#FFE299] text-primary font-bold text-[15px] px-6 py-3 rounded hover:bg-[#FFD566] transition-colors">Postula 2027</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="flex-grow">
+        <!-- Hero Section Simétrico -->
+        <section class="relative w-full h-[380px] min-h-[300px] flex items-center justify-center overflow-hidden">
+            <div class="absolute inset-0 z-0">
+                <img alt="Institución" class="w-full h-full object-cover" data-alt="A grand collegiate library with natural morning light streaming in through large arched windows, representing wisdom, academic history, and prestige." src="https://lh3.googleusercontent.com/aida-public/AB6AXuDwQQ2XRhFBIWkNv6TESEIU_NQZ0dZt1z8sKgztnm1dWdl_ac1In95eELYM5Pd0HcQuTFkzSBRhaEatq4mt-LgU6300wFwHUzG1rYjITOGXs8FfFgnH3P1aCbcIVh6ltFLA-Wm6OX2d8wq3zI0BDeJabfMf2Y8BX0YKQr5KMXv6czt--r0nes7dzs17PFU5VJr46bPlvetLtc6NhLBmAdagsFGcHeZawMiiFFaTKVrs2qaUfcZKLVVBgVCiKlv--7bmazBL2UG7Zaqs">
+                <div class="absolute inset-0 bg-primary/75 mix-blend-multiply"></div>
+            </div>
+            <div class="relative z-10 text-center px-margin-mobile md:px-margin-desktop max-w-[900px] mx-auto flex flex-col items-center">
+                <h1 class="font-display-lg-mobile md:font-display-lg text-display-lg-mobile md:text-display-lg text-on-primary mb-stack-sm animate-fade-in-up">
+                    Nuestra Institución
+                </h1>
+                <p class="font-body-lg text-body-lg text-[#FFE299] font-bold animate-fade-in-up-delay-1 tracking-wider uppercase">
+                    «Educación con Amor y Disciplina»
+                </p>
+            </div>
+        </section>
+
+        <!-- Split Layout (Misión & Visión) -->
+        <section class="py-section-padding bg-surface-container-lowest px-margin-mobile md:px-margin-desktop scroll-reveal">
+            <div class="max-w-container-max mx-auto flex flex-col lg:flex-row gap-stack-lg items-center">
+                <!-- Left: Campus Image -->
+                <div class="w-full lg:w-1/2">
+                    <img alt="Estudiantes en el campus" class="w-full h-[450px] object-cover rounded-xl shadow-lg border border-outline-variant/10" data-alt="High school students learning and collaborating in an elegant, sunlit modern library environment." src="https://lh3.googleusercontent.com/aida-public/AB6AXuAFVJWKEHtITzqHzPTyxzEbHoIPiccI03_lxtB5vJMTIulGwjOzY6uRxfJobMiNKJVlASM6xbkd2XRSO5EL7d_d1SUFA-Yl1YB6SbWrgMlsT7BF_wEmDgPs3PG0WSdCIN2bDsD-fjn8wZYrfZUQqEYy6mu-W_0VWwU0eeQ3yUNIV22D28Rlxuha1JwNGZQNQ8YAKZbtEFLqeXx8C3jrw1qZu_RvWgIHPwT2dwJUU5xxxUsgM36Fr4Eadpfm_45pKDyBgz60yH8dX-lM">
+                </div>
+                <!-- Right: Text Contents -->
+                <div class="w-full lg:w-1/2 flex flex-col justify-center">
+                    <span class="font-label-md text-label-md text-on-primary-container bg-primary-fixed/20 px-3 py-1 rounded-full w-fit mb-4">Misión y Visión</span>
+                    <h2 class="font-headline-md text-headline-md text-primary mb-stack-md">Quiénes Somos</h2>
+                    <p class="font-body-lg text-body-lg text-on-surface-variant mb-6 leading-relaxed">
+                        En el corazón de nuestra institución late un compromiso inquebrantable: formar jóvenes íntegros, capaces de enfrentar los desafíos del mañana con seguridad, conocimiento y valores sólidos. No solo educamos mentes, cultivamos el carácter.
+                    </p>
+                    <p class="font-body-md text-body-md text-on-surface-variant mb-6 leading-relaxed">
+                        Creemos fielmente que la excelencia académica y el bienestar emocional de los estudiantes van de la mano. En Falcon College, cada estudiante es reconocido en su individualidad, brindándole un entorno seguro donde la disciplina se vive como un camino hacia la libertad personal y el éxito futuro.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Pillars Section -->
+        <section class="py-section-padding bg-surface-container-low px-margin-mobile md:px-margin-desktop scroll-reveal">
+            <div class="max-w-container-max mx-auto">
+                <div class="text-center mb-16">
+                    <span class="font-label-md text-label-md text-on-primary-container bg-primary-fixed/20 px-3 py-1 rounded-full w-fit mx-auto mb-4 block">Ideario Educativo</span>
+                    <h2 class="font-headline-md text-headline-md text-primary mb-4">Nuestros 4 Pilares Fundacionales</h2>
+                    <p class="font-body-lg text-body-lg text-on-surface-variant max-w-2xl mx-auto">
+                        Pilares fundamentales sobre los cuales se construye nuestra convivencia escolar y éxito académico diario.
+                    </p>
+                </div>
+
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-gutter">
+                    <!-- Pillar 1 -->
+                    <div class="group bg-surface rounded-xl p-8 shadow-[0_4px_24px_rgba(0,0,0,0.04)] hover:shadow-[0_15px_35px_rgba(0,15,34,0.08)] border border-surface-container-high transition-all duration-500 ease-[cubic-bezier(0.16,1,0.3,1)] hover:-translate-y-1">
+                        <div class="w-14 h-14 rounded-full bg-primary-container/10 flex items-center justify-center text-primary-container mb-stack-md group-hover:bg-primary-container group-hover:text-on-primary transition-all duration-300">
+                            <span class="material-symbols-outlined" style="font-size: 28px;">school</span>
+                        </div>
+                        <h3 class="font-headline-sm text-headline-sm text-on-surface mb-2 group-hover:text-primary transition-colors">Excelencia Académica</h3>
+                        <p class="font-body-md text-body-md text-on-surface-variant leading-relaxed">
+                            Un currículo dinámico y exigente que prepara a nuestros estudiantes para los retos de la educación superior y el mundo globalizado de hoy.
+                        </p>
+                    </div>
+
+                    <!-- Pillar 2 -->
+                    <div class="group bg-surface rounded-xl p-8 shadow-[0_4px_24px_rgba(0,0,0,0.04)] hover:shadow-[0_15px_35px_rgba(0,15,34,0.08)] border border-surface-container-high transition-all duration-500 ease-[cubic-bezier(0.16,1,0.3,1)] hover:-translate-y-1">
+                        <div class="w-14 h-14 rounded-full bg-primary-container/10 flex items-center justify-center text-primary-container mb-stack-md group-hover:bg-primary-container group-hover:text-on-primary transition-all duration-300">
+                            <span class="material-symbols-outlined" style="font-size: 28px;">favorite</span>
+                        </div>
+                        <h3 class="font-headline-sm text-headline-sm text-on-surface mb-2 group-hover:text-primary transition-colors">Formación en Valores</h3>
+                        <p class="font-body-md text-body-md text-on-surface-variant leading-relaxed">
+                            El respeto mutuo, la responsabilidad y la empatía constituyen los pilares indispensables sobre los cuales se sostiene nuestra convivencia diaria.
+                        </p>
+                    </div>
+
+                    <!-- Pillar 3 -->
+                    <div class="group bg-surface rounded-xl p-8 shadow-[0_4px_24px_rgba(0,0,0,0.04)] hover:shadow-[0_15px_35px_rgba(0,15,34,0.08)] border border-surface-container-high transition-all duration-500 ease-[cubic-bezier(0.16,1,0.3,1)] hover:-translate-y-1">
+                        <div class="w-14 h-14 rounded-full bg-primary-container/10 flex items-center justify-center text-primary-container mb-stack-md group-hover:bg-primary-container group-hover:text-on-primary transition-all duration-300">
+                            <span class="material-symbols-outlined" style="font-size: 28px;">sports_soccer</span>
+                        </div>
+                        <h3 class="font-headline-sm text-headline-sm text-on-surface mb-2 group-hover:text-primary transition-colors">Desarrollo Integral</h3>
+                        <p class="font-body-md text-body-md text-on-surface-variant leading-relaxed">
+                            Potenciamos el talento de cada alumno más allá de la sala de clases a través de nuestros renovados talleres artísticos, científicos y deportivos.
+                        </p>
+                    </div>
+
+                    <!-- Pillar 4 -->
+                    <div class="group bg-surface rounded-xl p-8 shadow-[0_4px_24px_rgba(0,0,0,0.04)] hover:shadow-[0_15px_35px_rgba(0,15,34,0.08)] border border-surface-container-high transition-all duration-500 ease-[cubic-bezier(0.16,1,0.3,1)] hover:-translate-y-1">
+                        <div class="w-14 h-14 rounded-full bg-primary-container/10 flex items-center justify-center text-primary-container mb-stack-md group-hover:bg-primary-container group-hover:text-on-primary transition-all duration-300">
+                            <span class="material-symbols-outlined" style="font-size: 28px;">groups</span>
+                        </div>
+                        <h3 class="font-headline-sm text-headline-sm text-on-surface mb-2 group-hover:text-primary transition-colors">Comunidad Unida</h3>
+                        <p class="font-body-md text-body-md text-on-surface-variant leading-relaxed">
+                            Fomentamos una relación cercana y colaborativa entre las familias y el colegio para asegurar el acompañamiento y éxito de nuestros jóvenes.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Convivencia Escolar CTA Section -->
+        <section class="py-12 bg-primary text-white px-margin-mobile md:px-margin-desktop scroll-reveal relative overflow-hidden">
+            <div class="absolute inset-0 opacity-10 bg-pattern"></div>
+            <div class="max-w-container-max mx-auto flex flex-col md:flex-row items-center justify-between gap-6 relative z-10">
+                <div class="flex flex-col gap-2 max-w-2xl">
+                    <span class="text-xs font-bold text-[#FFE299] uppercase tracking-wider">Normativa e Integridad</span>
+                    <h2 class="font-headline-md text-headline-sm text-[#FFE299] font-bold">RICE y Protocolos Institucionales</h2>
+                    <p class="text-sm text-white/80 leading-relaxed">
+                        Conoce nuestros reglamentos internos, manuales de convivencia escolar y protocolos de actuación oficial frente a maltrato escolar, emergencias y accidentes.
+                    </p>
+                </div>
+                <a href="convivencia-media.html" class="bg-[#FFE299] text-primary hover:bg-[#FFD566] font-bold text-sm py-3 px-6 rounded shadow-md transition-all duration-300 flex items-center gap-2 group whitespace-nowrap">
+                    Ver Reglamentos y Protocolos
+                    <span class="material-symbols-outlined text-[18px] group-hover:translate-x-1 transition-transform">arrow_forward</span>
+                </a>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-surface-container-lowest dark:bg-surface-container-high text-primary dark:text-primary-fixed full-width border-t-0 mt-auto bg-surface-container-low dark:bg-surface-container-highest">
+        <div class="grid grid-cols-1 md:grid-cols-4 gap-stack-lg px-margin-desktop py-section-padding max-w-container-max mx-auto">
+            <!-- Brand Column -->
+            <div class="col-span-1 md:col-span-1 flex flex-col items-start">
+                <div class="font-headline-sm text-headline-sm font-bold text-primary dark:text-primary-fixed mb-4">
+                    Falcon College
+                </div>
+                <p class="font-body-md text-body-md text-on-surface-variant mb-4">
+                    Excelencia académica e integralidad formativa en Quinta Normal.
+                </p>
+            </div>
+            <!-- Links Column 1 -->
+            <div class="col-span-1 md:col-span-1 flex flex-col space-y-3">
+                <a class="font-label-md text-label-md text-on-surface-variant hover:text-primary transition-colors hover:translate-x-1 transition-transform duration-200" href="nosotros-media.html">Sobre el Colegio</a>
+                <a class="font-label-md text-label-md text-on-surface-variant hover:text-primary transition-colors hover:translate-x-1 transition-transform duration-200" href="admision-media.html">Admisión</a>
+                <a class="font-label-md text-label-md text-on-surface-variant hover:text-primary transition-colors hover:translate-x-1 transition-transform duration-200" href="tecnico-profesional.html">Académica</a>
+            </div>
+            <!-- Links Column 2 -->
+            <div class="col-span-1 md:col-span-1 flex flex-col space-y-3">
+                <a class="font-label-md text-label-md text-on-surface-variant hover:text-primary transition-colors hover:translate-x-1 transition-transform duration-200" href="contacto-media.html">Contacto</a>
+                <a class="font-label-md text-label-md text-tertiary-fixed-dim hover:text-tertiary-fixed transition-colors font-bold hover:translate-x-1 transition-transform duration-200" href="falcon-little.html">Falcon College Little</a>
+            </div>
+            <!-- Social/Contact Column -->
+            <div class="col-span-1 md:col-span-1 flex flex-col space-y-4">
+                <span class="font-label-md text-label-md text-primary font-bold">Redes Sociales</span>
+                <div class="flex space-x-4">
+                    <a class="w-10 h-10 rounded-full bg-surface-container flex items-center justify-center text-on-surface-variant hover:bg-primary-container hover:text-on-primary transition-colors" href="https://www.instagram.com/falconcollege_">
+                        <span class="material-symbols-outlined" style="font-size: 20px;">link</span>
+                    </a>
+                    <a class="w-10 h-10 rounded-full bg-surface-container flex items-center justify-center text-on-surface-variant hover:bg-primary-container hover:text-on-primary transition-colors" href="mailto:colegiofalconcollege@hotmail.com">
+                        <span class="material-symbols-outlined" style="font-size: 20px;">mail</span>
+                    </a>
+                </div>
+            </div>
+            <div class="col-span-1 md:col-span-4 mt-8 pt-8 border-t border-outline-variant/20 flex flex-col md:flex-row justify-between items-center text-sm text-on-surface-variant">
+                <span class="font-body-md text-body-md">© 2026 Falcon College. Todos los derechos reservados.</span>
+            </div>
+        </div>
+    </footer>
+    <script type="module" src="./src/main.js"></script>
+</body>
+</html>

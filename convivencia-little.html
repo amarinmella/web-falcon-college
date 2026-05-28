@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html class="light" lang="es">
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <title>Falcon College Little | Convivencia Escolar y RICE</title>
+    <!-- Material Symbols -->
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com" rel="preconnect">
+    <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&amp;family=Playfair+Display:ital,wght@0,600;0,700;1,600&amp;display=swap" rel="stylesheet">
+    
+    <!-- Vite CSS -->
+    <link rel="stylesheet" href="./src/input.css">
+</head>
+<body class="bg-background text-on-background font-body-md antialiased min-h-screen flex flex-col">
+    <!-- TopNavBar -->
+    <nav class="bg-primary text-white full-width top-0 sticky z-50 shadow-md border-b border-white/10">
+        <div class="flex justify-between items-center px-6 lg:px-12 py-3 max-w-[1440px] mx-auto gap-4 md:gap-8">
+            <!-- Brand Logo -->
+            <a class="shrink-0 logo-glow-hover flex items-center gap-3" href="index.html">
+                <img src="/logo-falcon-college_.svg" alt="Falcon College Shield Logo" class="h-[50px] w-auto max-w-[150px] object-contain">
+                <span class="text-white font-bold text-xl uppercase tracking-wider">Básica</span>
+            </a>
+            <!-- Desktop Navigation -->
+            <ul class="hidden lg:flex items-center space-x-6 xl:space-x-8 flex-grow justify-center">
+                <li><a class="relative text-white/90 hover:text-white transition-colors font-semibold text-[15px] tracking-wide after:content-[''] after:absolute after:-bottom-1 after:left-0 after:w-full after:h-[2px] after:bg-[#FFE299] after:scale-x-100 after:transition-transform after:duration-300 after:origin-left" href="nosotros-little.html">Institución</a></li>
+                <li><a class="relative text-white/90 hover:text-white transition-colors font-semibold text-[15px] tracking-wide after:content-[''] after:absolute after:-bottom-1 after:left-0 after:w-full after:h-[2px] after:bg-[#FFE299] after:scale-x-100 hover:after:scale-x-100 after:transition-transform after:duration-300 after:origin-left" href="convivencia-little.html">RICE y Protocolos</a></li>
+                <li><a class="relative text-white/90 hover:text-white transition-colors font-semibold text-[15px] tracking-wide after:content-[''] after:absolute after:-bottom-1 after:left-0 after:w-full after:h-[2px] after:bg-[#FFE299] after:scale-x-0 hover:after:scale-x-100 after:transition-transform after:duration-300 after:origin-left" href="admision-little.html">Admisión</a></li>
+                <li><a class="relative text-white/90 hover:text-white transition-colors font-semibold text-[15px] tracking-wide after:content-[''] after:absolute after:-bottom-1 after:left-0 after:w-full after:h-[2px] after:bg-[#FFE299] after:scale-x-0 hover:after:scale-x-100 after:transition-transform after:duration-300 after:origin-left" href="academico-little.html">Académica</a></li>
+                <li><a class="relative text-white/90 hover:text-white transition-colors font-semibold text-[15px] tracking-wide after:content-[''] after:absolute after:-bottom-1 after:left-0 after:w-full after:h-[2px] after:bg-[#FFE299] after:scale-x-0 hover:after:scale-x-100 after:transition-transform after:duration-300 after:origin-left" href="noticias-little.html">Noticias</a></li>
+                <li><a class="relative text-white/90 hover:text-white transition-colors font-semibold text-[15px] tracking-wide after:content-[''] after:absolute after:-bottom-1 after:left-0 after:w-full after:h-[2px] after:bg-[#FFE299] after:scale-x-0 hover:after:scale-x-100 after:transition-transform after:duration-300 after:origin-left" href="galeria-little.html">Galería</a></li>
+                <li><a class="relative text-white/90 hover:text-white transition-colors font-semibold text-[15px] tracking-wide after:content-[''] after:absolute after:-bottom-1 after:left-0 after:w-full after:h-[2px] after:bg-[#FFE299] after:scale-x-0 hover:after:scale-x-100 after:transition-transform after:duration-300 after:origin-left" href="contacto-little.html">Contacto</a></li>
+                <li><a class="relative text-white/90 hover:text-white transition-colors font-semibold text-[15px] tracking-wide after:content-[''] after:absolute after:-bottom-1 after:left-0 after:w-full after:h-[2px] after:bg-[#FFE299] after:scale-x-0 hover:after:scale-x-100 after:transition-transform after:duration-300 after:origin-left" href="index.html">Cambiar de Colegio</a></li>
+            </ul>
+            <!-- Actions -->
+            <div class="hidden lg:flex items-center shrink-0">
+                <a href="admision-little.html" class="bg-[#FFE299] text-primary font-bold text-[15px] px-6 py-2.5 rounded shadow-sm hover:bg-[#FFD566] hover:-translate-y-0.5 hover:shadow-md transition-all duration-200">Postula 2027</a>
+            </div>
+            <!-- Mobile Menu Toggle -->
+            <button class="mobile-menu-btn lg:hidden text-white p-2 focus:outline-none">
+                <span class="material-symbols-outlined">menu</span>
+            </button>
+        </div>
+        <!-- Mobile Menu -->
+        <div class="mobile-menu mobile-menu-custom lg:hidden bg-primary border-t border-white/10 px-6 py-4 absolute w-full left-0 shadow-lg">
+            <ul class="flex flex-col space-y-4">
+                <li><a class="block text-white/90 hover:text-white font-semibold text-[15px]" href="nosotros-little.html">Institución</a></li>
+                <li><a class="block text-white/90 hover:text-white font-semibold text-[15px]" href="convivencia-little.html">RICE y Protocolos</a></li>
+                <li><a class="block text-white/90 hover:text-white font-semibold text-[15px]" href="admision-little.html">Admisión</a></li>
+                <li><a class="block text-white/90 hover:text-white font-semibold text-[15px]" href="academico-little.html">Académica</a></li>
+                <li><a class="block text-white/90 hover:text-white font-semibold text-[15px]" href="noticias-little.html">Noticias</a></li>
+                <li><a class="block text-white/90 hover:text-white font-semibold text-[15px]" href="galeria-little.html">Galería</a></li>
+                <li><a class="block text-white/90 hover:text-white font-semibold text-[15px]" href="contacto-little.html">Contacto</a></li>
+                <li><a class="block text-white/90 hover:text-white font-semibold text-[15px]" href="index.html">Cambiar de Colegio</a></li>
+                <li class="pt-2"><a href="admision-little.html" class="block text-center bg-[#FFE299] text-primary font-bold text-[15px] px-6 py-3 rounded hover:bg-[#FFD566] transition-colors">Postula 2027</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="flex-grow">
+        <!-- Hero Section Simétrico -->
+        <section class="relative w-full h-[380px] min-h-[300px] flex items-center justify-center overflow-hidden">
+            <div class="absolute inset-0 z-0">
+                <img alt="Convivencia Escolar Little" class="w-full h-full object-cover object-center" data-alt="A brightly lit early childhood library with friendly coral and linden accents, representing school safety and shared care." src="https://lh3.googleusercontent.com/aida-public/AB6AXuAt_NKfg0ATa-EmPKAgG-RIYZHEkl6ATvCF1QL6rtk_jKxIPb9bLNr22mLDit_pmwf-qgPBxDeqmZcDydB1MVUpUNd4Av9zauk4aQeZMnkci-AOkYXfBIamp08LgCXL3LxAvMu4eZh1evvtJJaAvqrBtvo-6HrSRlN3NTQzRPaASNIbg6ptyycqu0McPAOphj_LjJXSHONeuKoQog4ZLxqA7ApwT3syOF6m0wziCFi3Ttyz4ccKST7o3Z3bwQHIKlT4me6J6WREbIYq">
+                <div class="absolute inset-0 bg-primary/65 mix-blend-multiply"></div>
+            </div>
+            <div class="relative z-10 text-center px-margin-mobile md:px-margin-desktop max-w-[900px] mx-auto flex flex-col items-center">
+                <h1 class="font-display-lg-mobile md:font-display-lg text-display-lg-mobile md:text-display-lg text-on-primary mb-stack-sm animate-fade-in-up">
+                    Sana Convivencia
+                </h1>
+                <p class="font-body-lg text-body-lg text-warm-coral font-bold animate-fade-in-up-delay-1 tracking-wider uppercase drop-shadow-sm">
+                    RICE &amp; Protocolos Institucionales - Sede Básica
+                </p>
+            </div>
+        </section>
+
+        <!-- RICE Section Highlight -->
+        <section class="py-12 bg-surface-container-lowest px-margin-mobile md:px-margin-desktop scroll-reveal">
+            <div class="max-w-container-max mx-auto">
+                <div class="bg-surface rounded-2xl p-6 md:p-10 border border-outline-variant/20 shadow-lg relative overflow-hidden flex flex-col lg:flex-row gap-8 items-center">
+                    <div class="absolute top-0 right-0 w-24 h-24 bg-orange-100/30 rounded-bl-full flex items-center justify-center text-warm-coral">
+                        <span class="material-symbols-outlined text-[40px] opacity-20">verified_user</span>
+                    </div>
+                    <div class="w-full lg:w-3/4 flex flex-col items-start gap-4">
+                        <span class="font-label-md text-label-md text-warm-coral bg-warm-coral/10 px-3 py-1 rounded-full w-fit font-bold">Documento Fundamental</span>
+                        <h2 class="font-headline-md text-headline-md text-primary">Reglamento Interno de Convivencia Escolar (RICE)</h2>
+                        <p class="font-body-md text-body-md text-on-surface-variant leading-relaxed">
+                            El RICE define el marco normativo de nuestra comunidad de Sede Básica y Pre-Básica, detallando los deberes, derechos, medidas pedagógicas e instancias formativas orientadas a la calidez y el respeto mutuo desde la primera infancia.
+                        </p>
+                        <div class="flex flex-wrap items-center gap-4 text-xs font-semibold text-on-surface-variant/75 mt-2">
+                            <span class="flex items-center gap-1.5"><span class="material-symbols-outlined text-sm text-warm-coral">calendar_month</span> Actualizado para Año Escolar 2026</span>
+                            <span class="flex items-center gap-1.5"><span class="material-symbols-outlined text-sm text-warm-coral">description</span> Formato PDF (1.8 MB)</span>
+                        </div>
+                    </div>
+                    <div class="w-full lg:w-1/4 flex flex-col gap-3 min-w-[200px]">
+                        <a href="#" class="w-full text-center bg-warm-coral text-white hover:bg-warm-coral/90 font-bold py-3.5 px-6 rounded shadow-md transition-all duration-300 flex items-center justify-center gap-2 group border border-white/10" title="Descargar RICE completo en PDF">
+                            <span class="material-symbols-outlined text-[20px]">download</span>
+                            Descargar RICE
+                        </a>
+                        <button data-protocol="rice" class="protocol-trigger-btn w-full text-center border border-warm-coral text-warm-coral hover:bg-warm-coral/5 font-bold py-3 px-6 rounded transition-all duration-300 flex items-center justify-center gap-2" title="Ver resumen dinámico de derechos y deberes">
+                            <span class="material-symbols-outlined text-[20px]">menu_book</span>
+                            Ver Resumen
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Protocols List Grid -->
+        <section class="py-12 bg-surface-container-low px-margin-mobile md:px-margin-desktop scroll-reveal">
+            <div class="max-w-container-max mx-auto">
+                <div class="text-center mb-12">
+                    <span class="font-label-md text-label-md text-warm-coral bg-warm-coral/10 px-3 py-1 rounded-full w-fit mx-auto mb-4 block font-bold">Protocolos de Actuación</span>
+                    <h2 class="font-headline-md text-headline-md text-primary mb-4">Planes de Acción y Resguardo Escolar</h2>
+                    <p class="font-body-lg text-body-lg text-on-surface-variant max-w-2xl mx-auto text-sm">
+                        De conformidad con la normativa de la Superintendencia de Educación, nuestro establecimiento cuenta con flujogramas estructurados para responder oportunamente a emergencias e incidentes.
+                    </p>
+                </div>
+
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-gutter">
+                    <!-- Protocol 1 -->
+                    <div class="card-premium-little group bg-surface rounded-xl p-6 border border-outline-variant/10 shadow-[0_4px_16px_rgba(0,0,0,0.02)] flex flex-col justify-between min-h-[280px]">
+                        <div>
+                            <div class="w-12 h-12 rounded-full bg-orange-100/30 flex items-center justify-center text-warm-coral mb-4 group-hover:bg-warm-coral group-hover:text-on-primary transition-all duration-300">
+                                <span class="material-symbols-outlined" style="font-size: 24px;">diversity_3</span>
+                            </div>
+                            <h3 class="font-headline-sm text-[20px] text-on-surface font-bold mb-2 group-hover:text-warm-coral transition-colors">Acoso Escolar (Bullying)</h3>
+                            <p class="text-xs text-on-surface-variant leading-relaxed">
+                                Plan de acción y derivación obligatoria ante denuncias de agresión sistemática física, verbal o cibernética entre pares.
+                            </p>
+                        </div>
+                        <div class="flex items-center gap-2 pt-6 mt-auto border-t border-outline-variant/10">
+                            <a href="#" class="flex-grow text-center text-xs border border-outline hover:bg-surface-container font-semibold py-2 px-3 rounded text-on-surface-variant transition-colors flex items-center justify-center gap-1">
+                                <span class="material-symbols-outlined text-[16px]">download</span>
+                                PDF
+                            </a>
+                            <button data-protocol="acoso" class="protocol-trigger-btn flex-grow text-center text-xs bg-warm-coral text-white hover:bg-warm-coral/95 font-semibold py-2.5 px-3 rounded transition-colors flex items-center justify-center gap-1">
+                                <span class="material-symbols-outlined text-[16px]">visibility</span>
+                                Ver Plan
+                            </button>
+                        </div>
+                    </div>
+
+                    <!-- Protocol 2 -->
+                    <div class="card-premium-little group bg-surface rounded-xl p-6 border border-outline-variant/10 shadow-[0_4px_16px_rgba(0,0,0,0.02)] flex flex-col justify-between min-h-[280px]">
+                        <div>
+                            <div class="w-12 h-12 rounded-full bg-orange-100/30 flex items-center justify-center text-warm-coral mb-4 group-hover:bg-warm-coral group-hover:text-on-primary transition-all duration-300">
+                                <span class="material-symbols-outlined" style="font-size: 24px;">medical_services</span>
+                            </div>
+                            <h3 class="font-headline-sm text-[20px] text-on-surface font-bold mb-2 group-hover:text-warm-coral transition-colors">Accidentes Escolares</h3>
+                            <p class="text-xs text-on-surface-variant leading-relaxed">
+                                Procedimiento de primeros auxilios y flujograma de seguro escolar estatal para derivación oportuna a centros asistenciales.
+                            </p>
+                        </div>
+                        <div class="flex items-center gap-2 pt-6 mt-auto border-t border-outline-variant/10">
+                            <a href="#" class="flex-grow text-center text-xs border border-outline hover:bg-surface-container font-semibold py-2 px-3 rounded text-on-surface-variant transition-colors flex items-center justify-center gap-1">
+                                <span class="material-symbols-outlined text-[16px]">download</span>
+                                PDF
+                            </a>
+                            <button data-protocol="accidentes" class="protocol-trigger-btn flex-grow text-center text-xs bg-warm-coral text-white hover:bg-warm-coral/95 font-semibold py-2.5 px-3 rounded transition-colors flex items-center justify-center gap-1">
+                                <span class="material-symbols-outlined text-[16px]">visibility</span>
+                                Ver Plan
+                            </button>
+                        </div>
+                    </div>
+
+                    <!-- Protocol 3 -->
+                    <div class="card-premium-little group bg-surface rounded-xl p-6 border border-outline-variant/10 shadow-[0_4px_16px_rgba(0,0,0,0.02)] flex flex-col justify-between min-h-[280px]">
+                        <div>
+                            <div class="w-12 h-12 rounded-full bg-orange-100/30 flex items-center justify-center text-warm-coral mb-4 group-hover:bg-warm-coral group-hover:text-on-primary transition-all duration-300">
+                                <span class="material-symbols-outlined" style="font-size: 24px;">airport_shuttle</span>
+                            </div>
+                            <h3 class="font-headline-sm text-[20px] text-on-surface font-bold mb-2 group-hover:text-warm-coral transition-colors">Salidas Pedagógicas</h3>
+                            <p class="text-xs text-on-surface-variant leading-relaxed">
+                                Reglas de resguardo en salidas de terreno, transporte homologado, autorizaciones escritas obligatorias y bitácora grupal.
+                            </p>
+                        </div>
+                        <div class="flex items-center gap-2 pt-6 mt-auto border-t border-outline-variant/10">
+                            <a href="#" class="flex-grow text-center text-xs border border-outline hover:bg-surface-container font-semibold py-2 px-3 rounded text-on-surface-variant transition-colors flex items-center justify-center gap-1">
+                                <span class="material-symbols-outlined text-[16px]">download</span>
+                                PDF
+                            </a>
+                            <button data-protocol="salidas" class="protocol-trigger-btn flex-grow text-center text-xs bg-warm-coral text-white hover:bg-warm-coral/95 font-semibold py-2.5 px-3 rounded transition-colors flex items-center justify-center gap-1">
+                                <span class="material-symbols-outlined text-[16px]">visibility</span>
+                                Ver Plan
+                            </button>
+                        </div>
+                    </div>
+
+                    <!-- Protocol 4 -->
+                    <div class="card-premium-little group bg-surface rounded-xl p-6 border border-outline-variant/10 shadow-[0_4px_16px_rgba(0,0,0,0.02)] flex flex-col justify-between min-h-[280px]">
+                        <div>
+                            <div class="w-12 h-12 rounded-full bg-orange-100/30 flex items-center justify-center text-warm-coral mb-4 group-hover:bg-warm-coral group-hover:text-on-primary transition-all duration-300">
+                                <span class="material-symbols-outlined" style="font-size: 24px;">gavel</span>
+                            </div>
+                            <h3 class="font-headline-sm text-[20px] text-on-surface font-bold mb-2 group-hover:text-warm-coral transition-colors">Vulneración de Derechos</h3>
+                            <p class="text-xs text-on-surface-variant leading-relaxed">
+                                Protocolo confidencial de primera acogida, informe psicosocial y derivación legal a OPD o Mejor Niñez en Quinta Normal.
+                            </p>
+                        </div>
+                        <div class="flex items-center gap-2 pt-6 mt-auto border-t border-outline-variant/10">
+                            <a href="#" class="flex-grow text-center text-xs border border-outline hover:bg-surface-container font-semibold py-2 px-3 rounded text-on-surface-variant transition-colors flex items-center justify-center gap-1">
+                                <span class="material-symbols-outlined text-[16px]">download</span>
+                                PDF
+                            </a>
+                            <button data-protocol="vulneracion" class="protocol-trigger-btn flex-grow text-center text-xs bg-warm-coral text-white hover:bg-warm-coral/95 font-semibold py-2.5 px-3 rounded transition-colors flex items-center justify-center gap-1">
+                                <span class="material-symbols-outlined text-[16px]">visibility</span>
+                                Ver Plan
+                            </button>
+                        </div>
+                    </div>
+
+                    <!-- Protocol 5 -->
+                    <div class="card-premium-little group bg-surface rounded-xl p-6 border border-outline-variant/10 shadow-[0_4px_16px_rgba(0,0,0,0.02)] flex flex-col justify-between min-h-[280px]">
+                        <div>
+                            <div class="w-12 h-12 rounded-full bg-orange-100/30 flex items-center justify-center text-warm-coral mb-4 group-hover:bg-warm-coral group-hover:text-on-primary transition-all duration-300">
+                                <span class="material-symbols-outlined" style="font-size: 24px;">escalator_warning</span>
+                            </div>
+                            <h3 class="font-headline-sm text-[20px] text-on-surface font-bold mb-2 group-hover:text-warm-coral transition-colors">Retención Escolar</h3>
+                            <p class="text-xs text-on-surface-variant leading-relaxed">
+                                Garantías académicas de flexibilidad de calendario y asistencia para alumnas embarazadas o alumnos con responsabilidades paternales.
+                            </p>
+                        </div>
+                        <div class="flex items-center gap-2 pt-6 mt-auto border-t border-outline-variant/10">
+                            <a href="#" class="flex-grow text-center text-xs border border-outline hover:bg-surface-container font-semibold py-2 px-3 rounded text-on-surface-variant transition-colors flex items-center justify-center gap-1">
+                                <span class="material-symbols-outlined text-[16px]">download</span>
+                                PDF
+                            </a>
+                            <button data-protocol="retencion" class="protocol-trigger-btn flex-grow text-center text-xs bg-warm-coral text-white hover:bg-warm-coral/95 font-semibold py-2.5 px-3 rounded transition-colors flex items-center justify-center gap-1">
+                                <span class="material-symbols-outlined text-[16px]">visibility</span>
+                                Ver Plan
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-surface-container-lowest dark:bg-surface-container-high full-width border-t bg-surface-container-low dark:bg-surface-container-highest">
+        <div class="grid grid-cols-1 md:grid-cols-4 gap-stack-lg px-margin-desktop py-section-padding max-w-container-max mx-auto">
+            <!-- Brand Column -->
+            <div class="flex flex-col gap-4">
+                <a class="font-headline-sm text-headline-sm font-bold text-primary dark:text-primary-fixed flex items-center gap-2" href="index.html">
+                    <img src="/logo-falcon-college_.svg" alt="Falcon College Shield Logo" class="h-10 w-auto"> 
+                    <span class="text-warm-coral text-sm ml-1 font-bold">Little</span>
+                </a>
+                <p class="font-body-md text-body-md text-on-surface-variant mt-2">
+                    Formando líderes desde sus primeros pasos con excelencia y calidez.
+                </p>
+            </div>
+            <!-- Links Column 1 -->
+            <div class="flex flex-col gap-3">
+                <h4 class="font-label-md text-label-md font-bold text-primary uppercase tracking-wider mb-2">Institución</h4>
+                <a class="font-body-md text-body-md text-on-surface-variant hover:text-primary transition-colors hover:translate-x-1 duration-200 focus:underline decoration-2 underline-offset-4" href="nosotros-little.html">Sobre el Colegio</a>
+                <a class="font-body-md text-body-md text-on-surface-variant hover:text-primary transition-colors hover:translate-x-1 duration-200 focus:underline decoration-2 underline-offset-4" href="admision-little.html">Admisión</a>
+                <a class="font-body-md text-body-md text-on-surface-variant hover:text-primary transition-colors hover:translate-x-1 duration-200 focus:underline decoration-2 underline-offset-4" href="academico-little.html">Académica</a>
+            </div>
+            <!-- Links Column 2 -->
+            <div class="flex flex-col gap-3">
+                <h4 class="font-label-md text-label-md font-bold text-primary uppercase tracking-wider mb-2">Conexión</h4>
+                <a class="font-body-md text-body-md text-on-surface-variant hover:text-primary transition-colors hover:translate-x-1 duration-200 focus:underline decoration-2 underline-offset-4" href="convivencia-little.html">RICE y Protocolos</a>
+                <a class="font-body-md text-body-md text-on-surface-variant hover:text-primary transition-colors hover:translate-x-1 duration-200 focus:underline decoration-2 underline-offset-4" href="contacto-little.html">Contacto</a>
+                <a class="font-body-md text-body-md text-on-surface-variant hover:text-primary transition-colors hover:translate-x-1 duration-200 focus:underline decoration-2 underline-offset-4 font-bold text-warm-coral" href="falcon-college.html">Visitar Falcon College (Media)</a>
+            </div>
+            <!-- Contact Info -->
+            <div class="flex flex-col gap-3">
+                <h4 class="font-label-md text-label-md font-bold text-primary uppercase tracking-wider mb-2">Ubicación</h4>
+                <p class="font-body-md text-body-md text-on-surface-variant flex items-start gap-2">
+                    <span class="material-symbols-outlined text-sm mt-1">location_on</span>
+                    Mapocho 5488, Quinta Normal, Santiago
+                </p>
+                <p class="font-body-md text-body-md text-on-surface-variant flex items-center gap-2">
+                    <span class="material-symbols-outlined text-sm">phone</span>
+                    +56 2 2774 1667
+                </p>
+            </div>
+        </div>
+        <!-- Copyright -->
+        <div class="border-t border-outline-variant/20 py-6 text-center">
+            <p class="font-body-md text-body-md text-on-surface-variant">
+                © 2026 Falcon College. Todos los derechos reservados.
+            </p>
+        </div>
+    </footer>
+
+    <!-- Interactive Protocol Drawer Panel -->
+    <div id="protocol-drawer" class="fixed inset-0 z-50 pointer-events-none flex justify-end overflow-hidden" aria-labelledby="slide-over-title" role="dialog" aria-modal="true">
+        <!-- Backdrop Blur Overlay -->
+        <div id="protocol-drawer-backdrop" class="absolute inset-0 bg-[#000f22]/50 backdrop-blur-sm transition-opacity duration-300 opacity-0 pointer-events-none"></div>
+
+        <!-- Drawer Content Panel -->
+        <div id="protocol-drawer-panel" class="relative w-full max-w-md bg-surface shadow-2xl h-full flex flex-col justify-between translate-x-full transition-transform duration-300 pointer-events-auto border-l border-outline-variant/10">
+            
+            <!-- Close Button Header -->
+            <div class="flex items-center justify-between px-6 py-5 border-b border-outline-variant/10 bg-primary text-white">
+                <h2 class="text-sm font-bold uppercase tracking-wider text-warm-coral">Flujograma Digital</h2>
+                <button id="protocol-drawer-close" class="text-white hover:text-warm-coral p-1 rounded-full focus:outline-none transition-colors">
+                    <span class="material-symbols-outlined">close</span>
+                </button>
+            </div>
+
+            <!-- Scrollable Content -->
+            <div class="flex-grow overflow-y-auto px-6 py-8 flex flex-col gap-6">
+                <!-- Loader Spinner (Visible when fetching data) -->
+                <div id="protocol-drawer-loader" class="flex flex-col items-center justify-center py-20 gap-3 hidden">
+                    <svg class="animate-spin h-8 w-8 text-warm-coral" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
+                        <circle class="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" stroke-width="3"></circle>
+                        <path class="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"></path>
+                    </svg>
+                    <span class="text-xs text-on-surface-variant font-semibold">Cargando flujograma...</span>
+                </div>
+
+                <!-- Actual Protocol Data -->
+                <div id="protocol-drawer-content" class="flex flex-col gap-6">
+                    <div>
+                        <h3 id="protocol-title" class="font-headline-sm text-headline-sm text-primary mb-1">Cargando...</h3>
+                        <p id="protocol-subtitle" class="text-xs font-bold text-warm-coral uppercase tracking-wider"></p>
+                    </div>
+                    <p id="protocol-description" class="text-sm text-on-surface-variant leading-relaxed p-4 bg-surface-container-low rounded-xl border border-outline-variant/10"></p>
+                    
+                    <div class="flex flex-col gap-4">
+                        <h4 class="text-xs font-bold text-on-surface-variant uppercase tracking-wider flex items-center gap-1.5">
+                            <span class="material-symbols-outlined text-[16px] text-warm-coral">list_alt</span>
+                            Pasos del Plan de Acción
+                        </h4>
+                        <!-- Dynamic Vertical Timeline -->
+                        <div id="protocol-steps-list" class="relative pl-6 flex flex-col gap-6 before:content-[''] before:absolute before:left-2.5 before:top-1.5 before:bottom-1.5 before:w-[2px] before:bg-warm-coral/20">
+                            <!-- Injected Steps go here -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Drawer Footer -->
+            <div class="px-6 py-5 border-t border-outline-variant/10 bg-surface-container-low flex justify-end gap-3">
+                <button id="protocol-drawer-cancel" class="border border-outline hover:bg-surface-container text-on-surface-variant font-bold text-xs py-2.5 px-4 rounded transition-colors">
+                    Cerrar
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Floating WhatsApp CTA Sede Básica -->
+    <a href="https://wa.me/56936854124?text=Hola%20Falcon%20College%20Sede%20B%C3%A1sica%2FLittle%2C%20quisiera%20realizar%20una%20consulta." 
+       target="_blank" 
+       class="fixed bottom-6 right-6 z-50 bg-[#25D366] text-white p-4 rounded-full shadow-2xl flex items-center justify-center hover:scale-110 active:scale-95 duration-300 transition-all animate-whatsapp-pulse group border-2 border-white/20" 
+       title="Escríbenos por WhatsApp" 
+       id="whatsapp-floating-btn">
+        <svg class="w-7 h-7" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+            <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L0 24l6.335-1.662c1.746.953 3.71 1.458 5.704 1.46h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413"/>
+        </svg>
+        <span class="absolute right-14 bg-[#000f22] text-[#FFE299] text-xs font-bold px-3 py-1.5 rounded-lg shadow-xl border border-white/10 opacity-0 scale-90 translate-x-3 pointer-events-none group-hover:opacity-100 group-hover:scale-100 group-hover:translate-x-0 transition-all duration-300 whitespace-nowrap">
+            ¿Consultas Sede Básica? 💬
+        </span>
+    </a>
+
+    <script type="module" src="./src/main.js"></script>
+</body>
+</html>

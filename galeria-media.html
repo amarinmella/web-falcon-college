@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html class="light" lang="es">
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <title>Falcon College | Galería Institucional</title>
+    <!-- Material Symbols -->
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com" rel="preconnect">
+    <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&amp;family=Playfair+Display:ital,wght@0,600;0,700;1,600&amp;display=swap" rel="stylesheet">
+    
+    <!-- Vite CSS -->
+    <link rel="stylesheet" href="./src/input.css">
+</head>
+<body data-sede="media" class="bg-background text-on-background font-body-md antialiased min-h-screen flex flex-col">
+    <!-- TopNavBar -->
+    <nav class="bg-primary text-white full-width top-0 sticky z-50 shadow-md border-b border-white/10">
+        <div class="flex justify-between items-center px-6 lg:px-12 py-3 max-w-[1440px] mx-auto gap-4 md:gap-8">
+            <!-- Brand Logo -->
+            <a class="shrink-0 logo-glow-hover flex items-center gap-3" href="index.html">
+                <img src="/logo-falcon-college_.svg" alt="Falcon College Shield Logo" class="h-[50px] w-auto max-w-[150px] object-contain">
+                <span class="text-white font-bold text-xl uppercase tracking-wider">Media</span>
+            </a>
+            <!-- Desktop Navigation -->
+            <ul class="hidden lg:flex items-center space-x-6 xl:space-x-8 flex-grow justify-center">
+                <li><a class="relative text-white/90 hover:text-white transition-colors font-semibold text-[15px] tracking-wide after:content-[''] after:absolute after:-bottom-1 after:left-0 after:w-full after:h-[2px] after:bg-[#FFE299] after:scale-x-0 hover:after:scale-x-100 after:transition-transform after:duration-300 after:origin-left" href="nosotros-media.html">Institución</a></li>
+                <li><a class="relative text-white/90 hover:text-white transition-colors font-semibold text-[15px] tracking-wide after:content-[''] after:absolute after:-bottom-1 after:left-0 after:w-full after:h-[2px] after:bg-[#FFE299] after:scale-x-0 hover:after:scale-x-100 after:transition-transform after:duration-300 after:origin-left" href="convivencia-media.html">RICE y Protocolos</a></li>
+                <li><a class="relative text-white/90 hover:text-white transition-colors font-semibold text-[15px] tracking-wide after:content-[''] after:absolute after:-bottom-1 after:left-0 after:w-full after:h-[2px] after:bg-[#FFE299] after:scale-x-0 hover:after:scale-x-100 after:transition-transform after:duration-300 after:origin-left" href="admision-media.html">Admisión</a></li>
+                <li><a class="relative text-white/90 hover:text-white transition-colors font-semibold text-[15px] tracking-wide after:content-[''] after:absolute after:-bottom-1 after:left-0 after:w-full after:h-[2px] after:bg-[#FFE299] after:scale-x-0 hover:after:scale-x-100 after:transition-transform after:duration-300 after:origin-left" href="tecnico-profesional.html">Académica</a></li>
+                <li><a class="relative text-white/90 hover:text-white transition-colors font-semibold text-[15px] tracking-wide after:content-[''] after:absolute after:-bottom-1 after:left-0 after:w-full after:h-[2px] after:bg-[#FFE299] after:scale-x-0 hover:after:scale-x-100 after:transition-transform after:duration-300 after:origin-left" href="noticias-media.html">Noticias</a></li>
+                <li><a class="relative text-white/90 hover:text-white transition-colors font-semibold text-[15px] tracking-wide after:content-[''] after:absolute after:-bottom-1 after:left-0 after:w-full after:h-[2px] after:bg-[#FFE299] after:scale-x-100 after:transition-transform after:duration-300 after:origin-left" href="galeria-media.html">Galería</a></li>
+                <li><a class="relative text-white/90 hover:text-white transition-colors font-semibold text-[15px] tracking-wide after:content-[''] after:absolute after:-bottom-1 after:left-0 after:w-full after:h-[2px] after:bg-[#FFE299] after:scale-x-0 hover:after:scale-x-100 after:transition-transform after:duration-300 after:origin-left" href="contacto-media.html">Contacto</a></li>
+                <li><a class="relative text-white/90 hover:text-white transition-colors font-semibold text-[15px] tracking-wide after:content-[''] after:absolute after:-bottom-1 after:left-0 after:w-full after:h-[2px] after:bg-[#FFE299] after:scale-x-0 hover:after:scale-x-100 after:transition-transform after:duration-300 after:origin-left" href="index.html">Cambiar de Colegio</a></li>
+            </ul>
+            <!-- Actions -->
+            <div class="hidden lg:flex items-center shrink-0">
+                <a href="admision-media.html" class="bg-[#FFE299] text-primary font-bold text-[15px] px-6 py-2.5 rounded shadow-sm hover:bg-[#FFD566] hover:-translate-y-0.5 hover:shadow-md transition-all duration-200">Postula 2027</a>
+            </div>
+            <!-- Mobile Menu Toggle -->
+            <button class="mobile-menu-btn lg:hidden text-white p-2 focus:outline-none">
+                <span class="material-symbols-outlined">menu</span>
+            </button>
+        </div>
+        <!-- Mobile Menu -->
+        <div class="mobile-menu mobile-menu-custom lg:hidden bg-primary border-t border-white/10 px-6 py-4 absolute w-full left-0 shadow-lg">
+            <ul class="flex flex-col space-y-4">
+                <li><a class="block text-white/90 hover:text-white font-semibold text-[15px]" href="nosotros-media.html">Institución</a></li>
+                <li><a class="block text-white/90 hover:text-white font-semibold text-[15px]" href="convivencia-media.html">RICE y Protocolos</a></li>
+                <li><a class="block text-white/90 hover:text-white font-semibold text-[15px]" href="admision-media.html">Admisión</a></li>
+                <li><a class="block text-white/90 hover:text-white font-semibold text-[15px]" href="tecnico-profesional.html">Académica</a></li>
+                <li><a class="block text-white/90 hover:text-white font-semibold text-[15px]" href="noticias-media.html">Noticias</a></li>
+                <li><a class="block text-white/90 hover:text-white font-semibold text-[15px]" href="galeria-media.html">Galería</a></li>
+                <li><a class="block text-white/90 hover:text-white font-semibold text-[15px]" href="contacto-media.html">Contacto</a></li>
+                <li><a class="block text-white/90 hover:text-white font-semibold text-[15px]" href="index.html">Cambiar de Colegio</a></li>
+                <li class="pt-2"><a href="admision-media.html" class="block text-center bg-[#FFE299] text-primary font-bold text-[15px] px-6 py-3 rounded hover:bg-[#FFD566] transition-colors">Postula 2027</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="flex-grow">
+        <!-- Hero Section -->
+        <section class="relative w-full h-[380px] min-h-[300px] flex items-center justify-center overflow-hidden">
+            <div class="absolute inset-0 z-0">
+                <img alt="Galería Falcon College" class="w-full h-full object-cover object-center" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDwQQ2XRhFBIWkNv6TESEIU_NQZ0dZt1z8sKgztnm1dWdl_ac1In95eELYM5Pd0HcQuTFkzSBRhaEatq4mt-LgU6300wFwHUzG1rYjITOGXs8FfFgnH3P1aCbcIVh6ltFLA-Wm6OX2d8wq3zI0BDeJabfMf2Y8BX0YKQr5KMXv6czt--r0nes7dzs17PFU5VJr46bPlvetLtc6NhLBmAdagsFGcHeZawMiiFFaTKVrs2qaUfcZKLVVBgVCiKlv--7bmazBL2UG7Zaqs">
+                <div class="absolute inset-0 bg-primary/70 mix-blend-multiply"></div>
+            </div>
+            <div class="relative z-10 text-center px-margin-mobile md:px-margin-desktop max-w-[900px] mx-auto flex flex-col items-center">
+                <h1 class="font-display-lg-mobile md:font-display-lg text-display-lg-mobile md:text-display-lg text-on-primary mb-stack-sm animate-fade-in-up">
+                    Galería Institucional
+                </h1>
+                <p class="font-body-lg text-body-lg text-[#FFE299] font-bold animate-fade-in-up-delay-1 tracking-wider uppercase">
+                    Imágenes e Hitos de Nuestra Vida Escolar Media
+                </p>
+            </div>
+        </section>
+
+        <!-- Categories & Filter Section -->
+        <section class="py-8 bg-surface-container-low border-b border-outline-variant/10 px-margin-mobile md:px-margin-desktop">
+            <div class="max-w-container-max mx-auto flex flex-col sm:flex-row items-center justify-between gap-4">
+                <div>
+                    <h2 class="font-headline-sm text-headline-sm text-primary mb-1">Explora por Categorías</h2>
+                    <p class="text-sm text-on-surface-variant">Filtra las fotografías de eventos, infraestructura y clases.</p>
+                </div>
+                <!-- Premium Glassmorphic Filters -->
+                <div class="flex flex-wrap items-center gap-2">
+                    <button data-filter="all" class="filter-btn px-5 py-2.5 rounded-full text-xs font-bold transition-all duration-300 bg-primary text-white shadow-md">
+                        Todos
+                    </button>
+                    <button data-filter="infraestructura" class="filter-btn px-5 py-2.5 rounded-full text-xs font-bold transition-all duration-300 bg-surface border border-outline-variant/40 text-on-surface hover:bg-surface-container-high hover:border-primary/30">
+                        Infraestructura
+                    </button>
+                    <button data-filter="clases" class="filter-btn px-5 py-2.5 rounded-full text-xs font-bold transition-all duration-300 bg-surface border border-outline-variant/40 text-on-surface hover:bg-surface-container-high hover:border-primary/30">
+                        Clases y Talleres
+                    </button>
+                    <button data-filter="eventos" class="filter-btn px-5 py-2.5 rounded-full text-xs font-bold transition-all duration-300 bg-surface border border-outline-variant/40 text-on-surface hover:bg-surface-container-high hover:border-primary/30">
+                        Eventos Especiales
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Dynamic Grid Section -->
+        <section class="py-12 bg-surface-container-lowest px-margin-mobile md:px-margin-desktop scroll-reveal">
+            <div class="max-w-container-max mx-auto">
+                <div id="gallery-grid" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-gutter transition-all duration-500">
+                    <!-- Loaded dynamically via JS -->
+                    <div class="h-64 w-full flex items-center justify-center col-span-1 md:col-span-3">
+                        <div class="animate-pulse flex space-x-4">
+                            <div class="rounded-full bg-slate-200 h-10 w-10"></div>
+                            <div class="flex-1 space-y-6 py-1">
+                                <div class="h-2 bg-slate-200 rounded"></div>
+                                <div class="space-y-3">
+                                    <div class="grid grid-cols-3 gap-4">
+                                        <div class="h-2 bg-slate-200 rounded col-span-2"></div>
+                                        <div class="h-2 bg-slate-200 rounded col-span-1"></div>
+                                    </div>
+                                    <div class="h-2 bg-slate-200 rounded"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Premium Lightbox Modal Unificado -->
+    <div id="gallery-lightbox-modal" class="fixed inset-0 z-50 flex items-center justify-center p-4 md:p-8 bg-black/95 backdrop-blur-md hidden opacity-0 transition-all duration-300">
+        <!-- Close Button -->
+        <button id="lightbox-close" class="absolute top-4 right-4 text-white/80 hover:text-white p-2 rounded-full hover:bg-white/10 transition-colors z-50">
+            <span class="material-symbols-outlined style-filled">close</span>
+        </button>
+
+        <!-- Left Arrow Navigation -->
+        <button id="lightbox-prev" class="absolute left-4 top-1/2 -translate-y-1/2 text-white/80 hover:text-white p-3 rounded-full hover:bg-white/10 transition-colors z-50">
+            <span class="material-symbols-outlined text-[36px]">chevron_left</span>
+        </button>
+
+        <!-- Center Image Container -->
+        <div class="max-w-4xl w-full max-h-[80vh] flex flex-col items-center justify-center relative transform scale-95 transition-all duration-300">
+            <img id="lightbox-image" src="" alt="" class="max-w-full max-h-[70vh] object-contain rounded-lg shadow-2xl border border-white/10 animate-fade-in">
+            
+            <!-- Description Overlay -->
+            <div class="w-full mt-4 text-center px-4">
+                <h3 id="lightbox-title" class="font-headline-sm text-headline-sm text-white font-bold mb-1"></h3>
+                <p id="lightbox-desc" class="text-sm text-white/70 max-w-xl mx-auto leading-relaxed"></p>
+            </div>
+        </div>
+
+        <!-- Right Arrow Navigation -->
+        <button id="lightbox-next" class="absolute right-4 top-1/2 -translate-y-1/2 text-white/80 hover:text-white p-3 rounded-full hover:bg-white/10 transition-colors z-50">
+            <span class="material-symbols-outlined text-[36px]">chevron_right</span>
+        </button>
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-surface-container-lowest dark:bg-surface-container-high text-primary dark:text-primary-fixed full-width border-t-0 mt-auto bg-surface-container-low dark:bg-surface-container-highest">
+        <div class="grid grid-cols-1 md:grid-cols-4 gap-stack-lg px-margin-desktop py-section-padding max-w-container-max mx-auto">
+            <!-- Brand Column -->
+            <div class="col-span-1 md:col-span-1 flex flex-col items-start">
+                <div class="font-headline-sm text-headline-sm font-bold text-primary dark:text-primary-fixed mb-4">
+                    Falcon College
+                </div>
+                <p class="font-body-md text-body-md text-on-surface-variant mb-4">
+                    Excelencia académica e integralidad formativa en Quinta Normal.
+                </p>
+            </div>
+            <!-- Links Column 1 -->
+            <div class="col-span-1 md:col-span-1 flex flex-col space-y-3">
+                <a class="font-label-md text-label-md text-on-surface-variant hover:text-primary transition-colors hover:translate-x-1 transition-transform duration-200" href="nosotros-media.html">Sobre el Colegio</a>
+                <a class="font-label-md text-label-md text-on-surface-variant hover:text-primary transition-colors hover:translate-x-1 transition-transform duration-200" href="admision-media.html">Admisión</a>
+                <a class="font-label-md text-label-md text-on-surface-variant hover:text-primary transition-colors hover:translate-x-1 transition-transform duration-200" href="tecnico-profesional.html">Académica</a>
+            </div>
+            <!-- Links Column 2 -->
+            <div class="col-span-1 md:col-span-1 flex flex-col space-y-3">
+                <a class="font-label-md text-label-md text-on-surface-variant hover:text-primary transition-colors hover:translate-x-1 transition-transform duration-200" href="contacto-media.html">Contacto</a>
+                <a class="font-label-md text-label-md text-tertiary-fixed-dim hover:text-tertiary-fixed transition-colors font-bold hover:translate-x-1 transition-transform duration-200" href="falcon-little.html">Falcon College Little</a>
+            </div>
+            <!-- Social/Contact Column -->
+            <div class="col-span-1 md:col-span-1 flex flex-col space-y-4">
+                <span class="font-label-md text-label-md text-primary font-bold">Redes Sociales</span>
+                <div class="flex space-x-4">
+                    <a class="w-10 h-10 rounded-full bg-surface-container flex items-center justify-center text-on-surface-variant hover:bg-primary-container hover:text-on-primary transition-colors" href="https://www.instagram.com/falconcollege_">
+                        <span class="material-symbols-outlined" style="font-size: 20px;">link</span>
+                    </a>
+                    <a class="w-10 h-10 rounded-full bg-surface-container flex items-center justify-center text-on-surface-variant hover:bg-primary-container hover:text-on-primary transition-colors" href="mailto:colegiofalconcollege@hotmail.com">
+                        <span class="material-symbols-outlined" style="font-size: 20px;">mail</span>
+                    </a>
+                </div>
+            </div>
+            <div class="col-span-1 md:col-span-4 mt-8 pt-8 border-t border-outline-variant/20 flex flex-col md:flex-row justify-between items-center text-sm text-on-surface-variant">
+                <span class="font-body-md text-body-md">© 2026 Falcon College. Todos los derechos reservados.</span>
+            </div>
+        </div>
+    </footer>
+    <script type="module" src="./src/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html class="light" lang="es">
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <title>Falcon College Little | Admisión 2027</title>
+    <!-- Material Symbols -->
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com" rel="preconnect">
+    <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&amp;family=Playfair+Display:ital,wght@0,600;0,700;1,600&amp;display=swap" rel="stylesheet">
+    
+    <!-- Vite CSS -->
+    <link rel="stylesheet" href="./src/input.css">
+</head>
+<body class="bg-background text-on-background font-body-md antialiased min-h-screen flex flex-col">
+    <!-- TopNavBar -->
+    <nav class="bg-primary text-white full-width top-0 sticky z-50 shadow-md border-b border-white/10">
+        <div class="flex justify-between items-center px-6 lg:px-12 py-3 max-w-[1440px] mx-auto gap-4 md:gap-8">
+            <!-- Brand Logo -->
+            <a class="shrink-0 logo-glow-hover flex items-center gap-3" href="index.html">
+                <img src="/logo-falcon-college_.svg" alt="Falcon College Logo" class="h-[50px] w-auto max-w-[150px] object-contain">
+                <span class="text-white font-bold text-xl uppercase tracking-wider">Básica</span>
+            </a>
+            <!-- Desktop Navigation -->
+            <ul class="hidden lg:flex items-center space-x-6 xl:space-x-8 flex-grow justify-center">
+                <li><a class="relative text-white/90 hover:text-white transition-colors font-semibold text-[15px] tracking-wide after:content-[''] after:absolute after:-bottom-1 after:left-0 after:w-full after:h-[2px] after:bg-[#FFE299] after:scale-x-0 hover:after:scale-x-100 after:transition-transform after:duration-300 after:origin-left" href="nosotros-little.html">Institución</a></li>
+                <li><a class="relative text-white/90 hover:text-white transition-colors font-semibold text-[15px] tracking-wide after:content-[''] after:absolute after:-bottom-1 after:left-0 after:w-full after:h-[2px] after:bg-[#FFE299] after:scale-x-0 hover:after:scale-x-100 after:transition-transform after:duration-300 after:origin-left" href="convivencia-little.html">RICE y Protocolos</a></li>
+                <li><a class="relative text-white/90 hover:text-white transition-colors font-semibold text-[15px] tracking-wide after:content-[''] after:absolute after:-bottom-1 after:left-0 after:w-full after:h-[2px] after:bg-[#FFE299] after:scale-x-100 after:transition-transform after:duration-300 after:origin-left" href="admision-little.html">Admisión</a></li>
+                <li><a class="relative text-white/90 hover:text-white transition-colors font-semibold text-[15px] tracking-wide after:content-[''] after:absolute after:-bottom-1 after:left-0 after:w-full after:h-[2px] after:bg-[#FFE299] after:scale-x-0 hover:after:scale-x-100 after:transition-transform after:duration-300 after:origin-left" href="academico-little.html">Académica</a></li>
+                <li><a class="relative text-white/90 hover:text-white transition-colors font-semibold text-[15px] tracking-wide after:content-[''] after:absolute after:-bottom-1 after:left-0 after:w-full after:h-[2px] after:bg-[#FFE299] after:scale-x-0 hover:after:scale-x-100 after:transition-transform after:duration-300 after:origin-left" href="#">Noticias</a></li>
+                <li><a class="relative text-white/90 hover:text-white transition-colors font-semibold text-[15px] tracking-wide after:content-[''] after:absolute after:-bottom-1 after:left-0 after:w-full after:h-[2px] after:bg-[#FFE299] after:scale-x-0 hover:after:scale-x-100 after:transition-transform after:duration-300 after:origin-left" href="galeria-little.html">Galería</a></li>
+                <li><a class="relative text-white/90 hover:text-white transition-colors font-semibold text-[15px] tracking-wide after:content-[''] after:absolute after:-bottom-1 after:left-0 after:w-full after:h-[2px] after:bg-[#FFE299] after:scale-x-0 hover:after:scale-x-100 after:transition-transform after:duration-300 after:origin-left" href="contacto-little.html">Contacto</a></li>
+                <li><a class="relative text-white/90 hover:text-white transition-colors font-semibold text-[15px] tracking-wide after:content-[''] after:absolute after:-bottom-1 after:left-0 after:w-full after:h-[2px] after:bg-[#FFE299] after:scale-x-0 hover:after:scale-x-100 after:transition-transform after:duration-300 after:origin-left" href="index.html">Cambiar de Colegio</a></li>
+            </ul>
+            <!-- Actions -->
+            <div class="hidden lg:flex items-center shrink-0">
+                <a href="admision-little.html" class="bg-[#FFE299] text-primary font-bold text-[15px] px-6 py-2.5 rounded shadow-sm hover:bg-[#FFD566] hover:-translate-y-0.5 hover:shadow-md transition-all duration-200">Postula 2027</a>
+            </div>
+            <!-- Mobile Menu Toggle -->
+            <button class="mobile-menu-btn lg:hidden text-white p-2 focus:outline-none">
+                <span class="material-symbols-outlined">menu</span>
+            </button>
+        </div>
+        <!-- Mobile Menu -->
+        <div class="mobile-menu mobile-menu-custom lg:hidden bg-primary border-t border-white/10 px-6 py-4 absolute w-full left-0 shadow-lg">
+            <ul class="flex flex-col space-y-4">
+                <li><a class="block text-white/90 hover:text-white font-semibold text-[15px]" href="nosotros-little.html">Institución</a></li>
+                <li><a class="block text-white/90 hover:text-white font-semibold text-[15px]" href="convivencia-little.html">RICE y Protocolos</a></li>
+                <li><a class="block text-white/90 hover:text-white font-semibold text-[15px]" href="admision-little.html">Admisión</a></li>
+                <li><a class="block text-white/90 hover:text-white font-semibold text-[15px]" href="academico-little.html">Académica</a></li>
+                <li><a class="block text-white/90 hover:text-white font-semibold text-[15px]" href="#">Noticias</a></li>
+                <li><a class="block text-white/90 hover:text-white font-semibold text-[15px]" href="galeria-little.html">Galería</a></li>
+                <li><a class="block text-white/90 hover:text-white font-semibold text-[15px]" href="contacto-little.html">Contacto</a></li>
+                <li><a class="block text-white/90 hover:text-white font-semibold text-[15px]" href="index.html">Cambiar de Colegio</a></li>
+                <li class="pt-2"><a href="admision-little.html" class="block text-center bg-[#FFE299] text-primary font-bold text-[15px] px-6 py-3 rounded hover:bg-[#FFD566] transition-colors">Postula 2027</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="flex-grow">
+        <!-- Hero Section Simétrico -->
+        <section class="relative w-full h-[380px] min-h-[300px] flex items-center justify-center overflow-hidden">
+            <div class="absolute inset-0 z-0">
+                <img alt="Admisión Básica" class="w-full h-full object-cover object-center" data-alt="A sunlit early childhood play area, filled with cheerful accents, safe educational structures, expressing dynamic primary growth." src="https://lh3.googleusercontent.com/aida-public/AB6AXuAt_NKfg0ATa-EmPKAgG-RIYZHEkl6ATvCF1QL6rtk_jKxIPb9bLNr22mLDit_pmwf-qgPBxDeqmZcDydB1MVUpUNd4Av9zauk4aQeZMnkci-AOkYXfBIamp08LgCXL3LxAvMu4eZh1evvtJJaAvqrBtvo-6HrSRlN3NTQzRPaASNIbg6ptyycqu0McPAOphj_LjJXSHONeuKoQog4ZLxqA7ApwT3syOF6m0wziCFi3Ttyz4ccKST7o3Z3bwQHIKlT4me6J6WREbIYq">
+                <div class="absolute inset-0 bg-primary/65 mix-blend-multiply"></div>
+            </div>
+            <div class="relative z-10 text-center px-margin-mobile md:px-margin-desktop max-w-[900px] mx-auto flex flex-col items-center">
+                <h1 class="font-display-lg-mobile md:font-display-lg text-display-lg-mobile md:text-display-lg text-on-primary mb-stack-sm animate-fade-in-up">
+                    Admisión 2027
+                </h1>
+                <p class="font-body-lg text-body-lg text-warm-coral font-bold animate-fade-in-up-delay-1 tracking-wider uppercase drop-shadow-sm">
+                    Únete a Nuestra Sede Básica e Inicial
+                </p>
+            </div>
+        </section>
+
+        <!-- SAE Info Section -->
+        <section class="py-12 bg-warm-coral/10 border-b border-outline-variant/10 px-margin-mobile md:px-margin-desktop scroll-reveal">
+            <div class="max-w-container-max mx-auto flex flex-col md:flex-row items-center justify-between gap-6">
+                <div class="flex items-center gap-4">
+                    <div class="bg-warm-coral/10 p-3 rounded-full text-warm-coral shrink-0">
+                        <span class="material-symbols-outlined" style="font-size: 36px;">info</span>
+                    </div>
+                    <div>
+                        <h3 class="font-headline-sm text-headline-sm text-primary font-bold mb-1">Sistema de Admisión Escolar (SAE)</h3>
+                        <p class="font-body-md text-body-md text-on-surface-variant max-w-3xl">
+                            Recordamos a todos los apoderados que el proceso oficial de postulación y asignación de vacantes en Chile se realiza de manera centralizada a través de la plataforma nacional del SAE.
+                        </p>
+                    </div>
+                </div>
+                <a href="https://www.sistemadeadmisionescolar.cl/" target="_blank" class="w-full md:w-auto text-center bg-warm-coral text-white font-bold text-label-md px-6 py-3.5 rounded hover:bg-warm-coral/95 transition-all duration-300 shadow-md flex items-center justify-center gap-2 shrink-0 group arrow-slide-hover">
+                    Ir a Postular al SAE
+                    <span class="material-symbols-outlined text-sm">arrow_forward</span>
+                </a>
+            </div>
+        </section>
+
+        <!-- Two Column Grid Section -->
+        <section class="py-section-padding bg-surface-container-lowest px-margin-mobile md:px-margin-desktop scroll-reveal">
+            <div class="max-w-container-max mx-auto flex flex-col lg:flex-row gap-stack-lg items-stretch">
+                <!-- Left Column: Dates & Requirements -->
+                <div class="w-full lg:w-1/2 flex flex-col justify-between">
+                    <div>
+                        <span class="font-label-md text-label-md text-warm-coral bg-warm-coral/10 px-3 py-1 rounded-full w-fit mb-4 font-bold">Postulaciones</span>
+                        <h2 class="font-headline-md text-headline-md text-primary mb-6">Requisitos y Fechas Clave</h2>
+                        
+                        <div class="space-y-6">
+                            <!-- Req 1 -->
+                            <div class="flex items-start gap-3">
+                                <span class="material-symbols-outlined text-warm-coral mt-1" style="font-variation-settings: 'FILL' 1;">calendar_month</span>
+                                <div>
+                                    <h4 class="font-label-md text-label-md text-on-surface font-bold mb-1">Calendario de Postulación</h4>
+                                    <p class="font-body-md text-body-md text-on-surface-variant text-sm">
+                                        El período principal de postulación comienza usualmente en **Agosto de 2026**. Los resultados se publican en **Octubre de 2026** y el proceso de matrícula se consolida en **Diciembre de 2026**.
+                                    </p>
+                                </div>
+                            </div>
+                            <!-- Req 2 -->
+                            <div class="flex items-start gap-3">
+                                <span class="material-symbols-outlined text-warm-coral mt-1" style="font-variation-settings: 'FILL' 1;">folder_shared</span>
+                                <div>
+                                    <h4 class="font-label-md text-label-md text-on-surface font-bold mb-1">Documentación Necesaria</h4>
+                                    <p class="font-body-md text-body-md text-on-surface-variant text-sm">
+                                        Certificado de nacimiento para matrícula del estudiante, Cédula de Identidad vigente del apoderado (nacional o extranjera), e informe de personalidad o jardín anterior (si corresponde).
+                                    </p>
+                                </div>
+                            </div>
+                            <!-- Req 3 -->
+                            <div class="flex items-start gap-3">
+                                <span class="material-symbols-outlined text-warm-coral mt-1" style="font-variation-settings: 'FILL' 1;">child_care</span>
+                                <div>
+                                    <h4 class="font-label-md text-label-md text-on-surface font-bold mb-1">Ciclo Inicial y Básica Completa</h4>
+                                    <p class="font-body-md text-body-md text-on-surface-variant text-sm">
+                                        Nuestra sede Básica ofrece formación desde **Pre-Kinder** (con enfoque afectivo y lúdico) hasta **8° Básico** (consolidando autonomía y pensamiento analítico).
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mt-8 p-6 bg-surface-container rounded-xl border border-outline-variant/10">
+                        <h4 class="font-label-md text-label-md text-primary font-bold mb-2">¿Deseas visitar nuestras dependencias?</h4>
+                        <p class="font-body-md text-body-md text-on-surface-variant text-sm mb-4 leading-relaxed">
+                            Completa el formulario de pre-registro a la derecha para coordinar una visita guiada personalizada por nuestras salas de juegos, patio de deportes y biblioteca interactiva.
+                        </p>
+                        <div class="flex items-center gap-2 text-sm text-warm-coral font-bold">
+                            <span class="material-symbols-outlined text-[18px]">phone</span>
+                            Llámanos directamente: +56 2 2774 1667
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Right Column: Interactive Form -->
+                <div class="w-full lg:w-1/2 flex flex-col">
+                    <div class="bg-surface rounded-2xl p-8 border border-outline-variant/20 shadow-lg relative overflow-hidden flex-grow flex flex-col justify-center min-h-[500px]">
+                        <!-- Form Card Container -->
+                        <div class="form-container-card flex flex-col h-full">
+                            <h3 class="font-headline-sm text-headline-sm text-primary mb-1">Ficha de Pre-Registro</h3>
+                            <p class="font-body-md text-body-md text-on-surface-variant mb-6 text-sm">Completa tus datos y nos comunicaremos contigo de inmediato.</p>
+                            
+                            <form class="admissions-form flex flex-col gap-4">
+                                <!-- Grid parent/student -->
+                                <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                                    <div class="flex flex-col gap-1">
+                                        <label class="text-xs font-bold text-on-surface-variant uppercase tracking-wider">Nombre del Apoderado</label>
+                                        <input required type="text" placeholder="Ej: Juan Pérez" class="w-full p-3 border border-outline-variant/40 rounded bg-white text-on-surface focus:outline-none focus:border-warm-coral focus:ring-1 focus:ring-warm-coral transition-all text-sm">
+                                    </div>
+                                    <div class="flex flex-col gap-1">
+                                        <label class="text-xs font-bold text-on-surface-variant uppercase tracking-wider">RUT Apoderado</label>
+                                        <input required type="text" placeholder="Ej: 12.345.678-9" class="rut-input w-full p-3 border border-outline-variant/40 rounded bg-white text-on-surface focus:outline-none focus:border-warm-coral focus:ring-1 focus:ring-warm-coral transition-all text-sm">
+                                        <span class="rut-error text-error text-xs hidden"></span>
+                                    </div>
+                                </div>
+
+                                <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                                    <div class="flex flex-col gap-1">
+                                        <label class="text-xs font-bold text-on-surface-variant uppercase tracking-wider">Teléfono de Contacto</label>
+                                        <input required type="text" placeholder="Ej: 987654321" class="w-full p-3 border border-outline-variant/40 rounded bg-white text-on-surface focus:outline-none focus:border-warm-coral focus:ring-1 focus:ring-warm-coral transition-all text-sm">
+                                    </div>
+                                    <div class="flex flex-col gap-1">
+                                        <label class="text-xs font-bold text-on-surface-variant uppercase tracking-wider">Correo Electrónico</label>
+                                        <input required type="email" placeholder="Ej: correo@ejemplo.com" class="w-full p-3 border border-outline-variant/40 rounded bg-white text-on-surface focus:outline-none focus:border-warm-coral focus:ring-1 focus:ring-warm-coral transition-all text-sm">
+                                    </div>
+                                </div>
+
+                                <div class="divider border-b border-outline-variant/20 my-2"></div>
+
+                                <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                                    <div class="flex flex-col gap-1">
+                                        <label class="text-xs font-bold text-on-surface-variant uppercase tracking-wider">Nombre del Postulante</label>
+                                        <input required type="text" placeholder="Ej: Sofía Pérez" class="w-full p-3 border border-outline-variant/40 rounded bg-white text-on-surface focus:outline-none focus:border-warm-coral focus:ring-1 focus:ring-warm-coral transition-all text-sm">
+                                    </div>
+                                    <div class="flex flex-col gap-1">
+                                        <label class="text-xs font-bold text-on-surface-variant uppercase tracking-wider">RUT Postulante</label>
+                                        <input required type="text" placeholder="Ej: 23.456.789-0" class="rut-input w-full p-3 border border-outline-variant/40 rounded bg-white text-on-surface focus:outline-none focus:border-warm-coral focus:ring-1 focus:ring-warm-coral transition-all text-sm">
+                                        <span class="rut-error text-error text-xs hidden"></span>
+                                    </div>
+                                </div>
+
+                                <div class="flex flex-col gap-1">
+                                    <label class="text-xs font-bold text-on-surface-variant uppercase tracking-wider">Curso a Postular (Sede Básica)</label>
+                                    <select required class="w-full p-3 border border-outline-variant/40 rounded bg-white text-on-surface focus:outline-none focus:border-warm-coral focus:ring-1 focus:ring-warm-coral transition-all text-sm">
+                                        <option value="" disabled selected>Selecciona el curso...</option>
+                                        <option value="pg">Playgroup</option>
+                                        <option value="pk">Pre-Kinder</option>
+                                        <option value="kd">Kinder</option>
+                                        <option value="1b">1° Año Básico</option>
+                                        <option value="2b">2° Año Básico</option>
+                                        <option value="3b">3° Año Básico</option>
+                                        <option value="4b">4° Año Básico</option>
+                                        <option value="5b">5° Año Básico</option>
+                                        <option value="6b">6° Año Básico</option>
+                                        <option value="7b">7° Año Básico</option>
+                                        <option value="8b">8° Año Básico</option>
+                                    </select>
+                                </div>
+
+                                <div class="flex flex-col gap-1">
+                                    <label class="text-xs font-bold text-on-surface-variant uppercase tracking-wider">Comentarios o Preguntas</label>
+                                    <textarea rows="3" placeholder="Escribe aquí si deseas coordinar una visita guiada..." class="w-full p-3 border border-outline-variant/40 rounded bg-white text-on-surface focus:outline-none focus:border-warm-coral focus:ring-1 focus:ring-warm-coral transition-all text-sm resize-none"></textarea>
+                                </div>
+
+                                <button type="submit" class="w-full bg-warm-coral text-white font-bold text-label-md py-3.5 rounded mt-2 shadow-md hover:bg-warm-coral/95 transition-all duration-300 transform active:scale-[0.98] flex items-center justify-center gap-2 group arrow-slide-hover">
+                                    Enviar Pre-Registro
+                                    <span class="material-symbols-outlined text-[20px] transition-transform duration-200">arrow_forward</span>
+                                </button>
+                            </form>
+                        </div>
+
+                        <!-- Success Container Card (Hidden by default) -->
+                        <div class="success-container-card hidden opacity-0 scale-95 flex flex-col items-center justify-center text-center h-full gap-4">
+                            <div class="w-20 h-20 rounded-full bg-orange-100 flex items-center justify-center text-warm-coral mb-2">
+                                <svg class="w-12 h-12" fill="none" stroke="currentColor" stroke-width="3" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                    <path class="success-checkmark" stroke-linecap="round" stroke-linejoin="round" d="M4.5 12.75l6 6 9-13.5"></path>
+                                </svg>
+                            </div>
+                            <h3 class="font-headline-sm text-headline-sm text-primary font-bold">¡Pre-Registro Enviado!</h3>
+                            <p class="font-body-md text-body-md text-on-surface-variant max-w-sm text-sm leading-relaxed">
+                                Hemos recibido tus antecedentes de admisión correctamente. Un miembro de nuestro equipo del área directiva de **Falcon College Little (Básica)** se pondrá en contacto contigo a la brevedad.
+                            </p>
+                            <a href="index.html" class="mt-4 border border-warm-coral text-warm-coral font-bold text-label-md px-6 py-2.5 rounded hover:bg-warm-coral/5 transition-all duration-300">
+                                Volver al Inicio
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-surface-container-lowest dark:bg-surface-container-high full-width border-t bg-surface-container-low dark:bg-surface-container-highest">
+        <div class="grid grid-cols-1 md:grid-cols-4 gap-stack-lg px-margin-desktop py-section-padding max-w-container-max mx-auto">
+            <!-- Brand Column -->
+            <div class="flex flex-col gap-4">
+                <a class="font-headline-sm text-headline-sm font-bold text-primary dark:text-primary-fixed flex items-center gap-2" href="index.html">
+                    <img src="/logo-falcon-college_.svg" alt="Falcon College Shield" class="h-10 w-auto"> 
+                    <span class="text-warm-coral text-sm ml-1 font-bold">Little</span>
+                </a>
+                <p class="font-body-md text-body-md text-on-surface-variant mt-2">
+                    Formando líderes desde sus primeros pasos con excelencia y calidez.
+                </p>
+            </div>
+            <!-- Links Column 1 -->
+            <div class="flex flex-col gap-3">
+                <h4 class="font-label-md text-label-md font-bold text-primary uppercase tracking-wider mb-2">Institución</h4>
+                <a class="font-body-md text-body-md text-on-surface-variant hover:text-primary transition-colors hover:translate-x-1 duration-200 focus:underline decoration-2 underline-offset-4" href="nosotros-little.html">Sobre el Colegio</a>
+                <a class="font-body-md text-body-md text-on-surface-variant hover:text-primary transition-colors hover:translate-x-1 duration-200 focus:underline decoration-2 underline-offset-4" href="admision-little.html">Admisión</a>
+                <a class="font-body-md text-body-md text-on-surface-variant hover:text-primary transition-colors hover:translate-x-1 duration-200 focus:underline decoration-2 underline-offset-4" href="academico-little.html">Académica</a>
+            </div>
+            <!-- Links Column 2 -->
+            <div class="flex flex-col gap-3">
+                <h4 class="font-label-md text-label-md font-bold text-primary uppercase tracking-wider mb-2">Conexión</h4>
+                <a class="font-body-md text-body-md text-on-surface-variant hover:text-primary transition-colors hover:translate-x-1 duration-200 focus:underline decoration-2 underline-offset-4" href="convivencia-little.html">RICE y Protocolos</a>
+                <a class="font-body-md text-body-md text-on-surface-variant hover:text-primary transition-colors hover:translate-x-1 duration-200 focus:underline decoration-2 underline-offset-4" href="contacto-little.html">Contacto</a>
+                <a class="font-body-md text-body-md text-on-surface-variant hover:text-primary transition-colors hover:translate-x-1 duration-200 focus:underline decoration-2 underline-offset-4 font-bold text-warm-coral" href="falcon-college.html">Visitar Falcon College (Media)</a>
+                <a class="font-body-md text-body-md text-on-surface-variant hover:text-primary transition-colors hover:translate-x-1 duration-200 focus:underline decoration-2 underline-offset-4" href="#">Redes Sociales</a>
+            </div>
+            <!-- Contact Info -->
+            <div class="flex flex-col gap-3">
+                <h4 class="font-label-md text-label-md font-bold text-primary uppercase tracking-wider mb-2">Ubicación</h4>
+                <p class="font-body-md text-body-md text-on-surface-variant flex items-start gap-2">
+                    <span class="material-symbols-outlined text-sm mt-1">location_on</span>
+                    Mapocho 5488, Quinta Normal, Santiago
+                </p>
+                <p class="font-body-md text-body-md text-on-surface-variant flex items-center gap-2">
+                    <span class="material-symbols-outlined text-sm">phone</span>
+                    +56 2 2774 1667
+                </p>
+            </div>
+        </div>
+        <!-- Copyright -->
+        <div class="border-t border-outline-variant/20 py-6 text-center">
+            <p class="font-body-md text-body-md text-on-surface-variant">
+                © 2026 Falcon College. Todos los derechos reservados.
+            </p>
+        </div>
+    </footer>
+    <script type="module" src="./src/main.js"></script>
+</body>
+</html>

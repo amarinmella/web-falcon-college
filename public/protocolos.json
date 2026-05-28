@@ -1,0 +1,79 @@
+{
+  "rice": {
+    "title": "Reglamento Interno de Convivencia Escolar (RICE)",
+    "subtitle": "Marco regulatorio de derechos, deberes y normas formativas de la institución.",
+    "description": "El RICE tiene por objeto promover y regular la convivencia escolar, definiendo derechos, deberes, infracciones y medidas disciplinarias orientadas al desarrollo integral de los estudiantes en un ambiente seguro y formativo.",
+    "steps": [
+      "Derecho a una educación de calidad en un entorno seguro y de mutuo respeto.",
+      "Deber de asistir regularmente, justificar inasistencias y respetar al personal educativo.",
+      "Conducta Formativa: Resolución pacífica de conflictos mediante el diálogo y la mediación escolar.",
+      "Medidas Disciplinarias: Deben ser pedagógicas, proporcionales y con derecho a ser escuchado (Debido Proceso).",
+      "Compromiso Familiar: Apoyo activo de los padres en el proceso de enseñanza y acatamiento de reglamentos."
+    ]
+  },
+  "acoso": {
+    "title": "Protocolo ante Acoso Escolar (Bullying / Ciberbullying)",
+    "subtitle": "Procedimiento oficial de resguardo y resolución ante conductas de maltrato entre pares.",
+    "description": "Establece los pasos obligatorios a seguir ante sospechas o denuncias de maltrato físico, psicológico o digital realizado por uno o más estudiantes de forma sistemática contra otro.",
+    "steps": [
+      "1. Detección o Recepción de Denuncia: Registro en bitácora escrita por parte de cualquier funcionario del colegio.",
+      "2. Derivación Inmediata: Envío del reporte en menos de 24 horas al Encargado de Convivencia Escolar y Dirección.",
+      "3. Medidas de Resguardo: Separación temporal de espacios comunes, tutorías y apoyo psicológico preventivo a la víctima.",
+      "4. Entrevistas e Investigación: Citación individual a apoderados, estudiantes implicados y recopilación de antecedentes (máximo 10 días hábiles).",
+      "5. Resolución y Sanción: Aplicación de medidas formativas o disciplinarias según la gravedad descrita en el RICE.",
+      "6. Plan de Apoyo y Seguimiento: Monitoreo periódico por parte del equipo psicosocial (Psicólogo escolar) para evaluar la efectividad."
+    ]
+  },
+  "accidentes": {
+    "title": "Protocolo ante Accidentes Escolares y de Salud",
+    "subtitle": "Acciones de primeros auxilios, seguros y derivación médica frente a emergencias físicas.",
+    "description": "Define los procedimientos de primera respuesta, comunicación y traslado seguro de estudiantes que sufran algún incidente o lesión física dentro de las instalaciones escolares o en trayectos.",
+    "steps": [
+      "1. Evaluación Inicial: Inspección del estudiante por parte de la encargada de primeros auxilios de la sede.",
+      "2. Primeros Auxilios Elementales: Curación superficial, inmovilización preventiva y control de signos en sala de atención.",
+      "3. Comunicación Familiar: Contacto telefónico inmediato al apoderado para informar estado y coordinar pasos a seguir.",
+      "4. Seguro Escolar Estatal: Emisión del formulario oficial 'Declaración Individual de Accidente Escolar' de la Superintendencia.",
+      "5. Derivación y Traslado: En caso de gravedad, llamado a SAMU (131) o traslado en transporte escolar al SAPU / Cesfam local de Quinta Normal.",
+      "6. Informe de Seguimiento: Registro de la resolución médica y condiciones de reingreso escolar del alumno."
+    ]
+  },
+  "salidas": {
+    "title": "Protocolo de Seguridad en Salidas Pedagógicas",
+    "subtitle": "Requisitos obligatorios para visitas a museos, ferias y salidas de terreno académicas.",
+    "description": "Normativas para planificar y ejecutar salidas escolares fuera del recinto, asegurando el resguardo e integridad de alumnos y docentes.",
+    "steps": [
+      "1. Planificación Académica: Presentación del proyecto educativo de la salida a UTP y Dirección con 15 días de anticipación.",
+      "2. Autorización Escrita Firmada: Entrega del documento oficial firmado por el apoderado (sin autorización escrita el estudiante no viaja).",
+      "3. Contratación de Transporte Autorizado: Buses con revisión técnica al día, cinturones de seguridad y registro del Ministerio de Transportes.",
+      "4. Nómina y Ficha de Emergencia: Listado de alumnos con contactos de emergencia, alergias y medicamentos en manos de los docentes guías.",
+      "5. Protocolo en Terreno: Control continuo de asistencia, distribución de grupos por adulto responsable (relación 1:10) e identificación escolar.",
+      "6. Retorno y Evaluación: Conteo de alumnos previo al viaje de vuelta e informe final de la salida pedagógica."
+    ]
+  },
+  "vulneracion": {
+    "title": "Protocolo ante Sospecha de Vulneración de Derechos",
+    "subtitle": "Medidas de resguardo y derivación de estudiantes a redes de protección del Estado (Sename/Mejor Niñez).",
+    "description": "Acción preventiva ante sospechas o evidencias de maltrato infantil, negligencia parental o abuso, resguardando en todo momento el interés superior del niño.",
+    "steps": [
+      "1. Detección de Indicadores: Registro confidencial de señales físicas, emocionales o académicas detectadas por docentes o equipo de apoyo.",
+      "2. Entrevista de Acompañamiento: Diálogo privado, empático y cuidadoso por parte del psicólogo escolar (sin interrogar ni revictimizar).",
+      "3. Derivación Interna: Informe técnico detallado enviado al Encargado de Convivencia y Rectoría en un plazo de 24 horas.",
+      "4. Denuncia Legal Obligatoria: Presentación de los antecedentes a Tribunales de Familia o Carabineros de Chile si hay delito flagrante (plazo legal de 24 horas).",
+      "5. Coordinación de Apoyo Externo: Enlace con Oficina de Protección de Derechos (OPD Quinta Normal) o programas especializados.",
+      "6. Monitoreo Pedagógico: Plan de adecuación académica y contención emocional continua dentro del establecimiento."
+    ]
+  },
+  "retencion": {
+    "title": "Protocolo de Retención Escolar y Maternidad/Paternidad",
+    "subtitle": "Garantías y flexibilidades para la continuidad escolar de estudiantes embarazadas o padres.",
+    "description": "Resguarda el derecho a la educación de estudiantes en situación de embarazo, maternidad o paternidad, evitando la deserción y fomentando la conciliación académica y familiar.",
+    "steps": [
+      "1. Notificación y Acogida: Entrevista de apoyo del Equipo de Orientación tras conocer el estado de embarazo o paternidad.",
+      "2. Adecuación de Calendario: Creación de un plan de evaluación flexible que permita justificar inasistencias por controles médicos y pre/postnatal.",
+      "3. Modalidad de Tutorías: Habilitación de guías de aprendizaje a distancia y apoyo virtual durante períodos de ausencia obligada.",
+      "4. Facilidades Físicas: Acceso preferente a baños, salas y flexibilidad en el uso del uniforme escolar reglamentario.",
+      "5. Resguardo Psicosocial: Apoyo emocional continuo y talleres de preparación para compatibilizar la vida de estudiante y de padres.",
+      "6. Promoción y Cierre Escolar: Evaluación personalizada del año lectivo, asegurando el cumplimiento del porcentaje de asistencia legal modificado."
+    ]
+  }
+}

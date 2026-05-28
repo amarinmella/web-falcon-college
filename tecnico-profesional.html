@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html class="light" lang="es">
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <title>Falcon College | Área Académica y Especialidades</title>
+    <!-- Material Symbols -->
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com" rel="preconnect">
+    <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&amp;family=Playfair+Display:ital,wght@0,600;0,700;1,600&amp;display=swap" rel="stylesheet">
+    
+    <!-- Vite CSS -->
+    <link rel="stylesheet" href="./src/input.css">
+</head>
+<body class="bg-background text-on-background font-body-md antialiased min-h-screen flex flex-col">
+    <!-- TopNavBar -->
+    <nav class="bg-primary text-white full-width top-0 sticky z-50 shadow-md border-b border-white/10">
+        <div class="flex justify-between items-center px-6 lg:px-12 py-3 max-w-[1440px] mx-auto gap-4 md:gap-8">
+            <!-- Brand Logo -->
+            <a class="shrink-0 logo-glow-hover flex items-center gap-3" href="index.html">
+                <img src="/logo-falcon-college_.svg" alt="Falcon College Logo" class="h-[50px] w-auto max-w-[150px] object-contain">
+                <span class="text-white font-bold text-xl uppercase tracking-wider">Media</span>
+            </a>
+            <!-- Desktop Navigation -->
+            <ul class="hidden lg:flex items-center space-x-6 xl:space-x-8 flex-grow justify-center">
+                <li><a class="relative text-white/90 hover:text-white transition-colors font-semibold text-[15px] tracking-wide after:content-[''] after:absolute after:-bottom-1 after:left-0 after:w-full after:h-[2px] after:bg-[#FFE299] after:scale-x-0 hover:after:scale-x-100 after:transition-transform after:duration-300 after:origin-left" href="nosotros-media.html">Institución</a></li>
+                <li><a class="relative text-white/90 hover:text-white transition-colors font-semibold text-[15px] tracking-wide after:content-[''] after:absolute after:-bottom-1 after:left-0 after:w-full after:h-[2px] after:bg-[#FFE299] after:scale-x-0 hover:after:scale-x-100 after:transition-transform after:duration-300 after:origin-left" href="convivencia-media.html">RICE y Protocolos</a></li>
+                <li><a class="relative text-white/90 hover:text-white transition-colors font-semibold text-[15px] tracking-wide after:content-[''] after:absolute after:-bottom-1 after:left-0 after:w-full after:h-[2px] after:bg-[#FFE299] after:scale-x-0 hover:after:scale-x-100 after:transition-transform after:duration-300 after:origin-left" href="admision-media.html">Admisión</a></li>
+                <li><a class="relative text-white/90 hover:text-white transition-colors font-semibold text-[15px] tracking-wide after:content-[''] after:absolute after:-bottom-1 after:left-0 after:w-full after:h-[2px] after:bg-[#FFE299] after:scale-x-100 after:transition-transform after:duration-300 after:origin-left" href="tecnico-profesional.html">Académica</a></li>
+                <li><a class="relative text-white/90 hover:text-white transition-colors font-semibold text-[15px] tracking-wide after:content-[''] after:absolute after:-bottom-1 after:left-0 after:w-full after:h-[2px] after:bg-[#FFE299] after:scale-x-0 hover:after:scale-x-100 after:transition-transform after:duration-300 after:origin-left" href="#">Noticias</a></li>
+                <li><a class="relative text-white/90 hover:text-white transition-colors font-semibold text-[15px] tracking-wide after:content-[''] after:absolute after:-bottom-1 after:left-0 after:w-full after:h-[2px] after:bg-[#FFE299] after:scale-x-0 hover:after:scale-x-100 after:transition-transform after:duration-300 after:origin-left" href="galeria-media.html">Galería</a></li>
+                <li><a class="relative text-white/90 hover:text-white transition-colors font-semibold text-[15px] tracking-wide after:content-[''] after:absolute after:-bottom-1 after:left-0 after:w-full after:h-[2px] after:bg-[#FFE299] after:scale-x-0 hover:after:scale-x-100 after:transition-transform after:duration-300 after:origin-left" href="contacto-media.html">Contacto</a></li>
+                <li><a class="relative text-white/90 hover:text-white transition-colors font-semibold text-[15px] tracking-wide after:content-[''] after:absolute after:-bottom-1 after:left-0 after:w-full after:h-[2px] after:bg-[#FFE299] after:scale-x-0 hover:after:scale-x-100 after:transition-transform after:duration-300 after:origin-left" href="index.html">Cambiar de Colegio</a></li>
+            </ul>
+            <!-- Actions -->
+            <div class="hidden lg:flex items-center shrink-0">
+                <a href="admision-media.html" class="bg-[#FFE299] text-primary font-bold text-[15px] px-6 py-2.5 rounded shadow-sm hover:bg-[#FFD566] hover:-translate-y-0.5 hover:shadow-md transition-all duration-200">Postula 2027</a>
+            </div>
+            <!-- Mobile Menu Toggle -->
+            <button class="mobile-menu-btn lg:hidden text-white p-2 focus:outline-none">
+                <span class="material-symbols-outlined">menu</span>
+            </button>
+        </div>
+        <!-- Mobile Menu -->
+        <div class="mobile-menu mobile-menu-custom lg:hidden bg-primary border-t border-white/10 px-6 py-4 absolute w-full left-0 shadow-lg">
+            <ul class="flex flex-col space-y-4">
+                <li><a class="block text-white/90 hover:text-white font-semibold text-[15px]" href="nosotros-media.html">Institución</a></li>
+                <li><a class="block text-white/90 hover:text-white font-semibold text-[15px]" href="convivencia-media.html">RICE y Protocolos</a></li>
+                <li><a class="block text-white/90 hover:text-white font-semibold text-[15px]" href="admision-media.html">Admisión</a></li>
+                <li><a class="block text-white/90 hover:text-white font-semibold text-[15px]" href="tecnico-profesional.html">Académica</a></li>
+                <li><a class="block text-white/90 hover:text-white font-semibold text-[15px]" href="#">Noticias</a></li>
+                <li><a class="block text-white/90 hover:text-white font-semibold text-[15px]" href="galeria-media.html">Galería</a></li>
+                <li><a class="block text-white/90 hover:text-white font-semibold text-[15px]" href="contacto-media.html">Contacto</a></li>
+                <li><a class="block text-white/90 hover:text-white font-semibold text-[15px]" href="index.html">Cambiar de Colegio</a></li>
+                <li class="pt-2"><a href="admision-media.html" class="block text-center bg-[#FFE299] text-primary font-bold text-[15px] px-6 py-3 rounded hover:bg-[#FFD566] transition-colors">Postula 2027</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="flex-grow">
+        <!-- Hero Section Simétrico -->
+        <section class="relative w-full h-[380px] min-h-[300px] flex items-center justify-center overflow-hidden">
+            <div class="absolute inset-0 z-0">
+                <img alt="Académica Media" class="w-full h-full object-cover" data-alt="A brightly lit, modern industrial drawing and administration classroom with computers and drafting tables, conveying high technology and professional learning." src="https://lh3.googleusercontent.com/aida-public/AB6AXuD3DTenhQbgwes_A9AO1VBCHtOELTsuYfaVZkbHSr71ZUFO8mSQiD5GgDoO3jbRvsXCUD64twitSbGhFumjAoW5DVtJFdnr1c29dR_zJvkMFt8GbAg_Mmy68AxA90U-SMwm62yRsyzEVKPh-GaCJ5Hx0ME5N0aOynAAd1f1c8pF2HWpPnM2Hnjq7rplvlwvddiYMADylC8Hj5xxJ3sqJHrLkVdMOKC_yGXIrNYwMLqA6dmc2wlXzswwvzsGOJ7TtPO_iMFeikHxRQOb">
+                <div class="absolute inset-0 bg-primary/75 mix-blend-multiply"></div>
+            </div>
+            <div class="relative z-10 text-center px-margin-mobile md:px-margin-desktop max-w-[900px] mx-auto flex flex-col items-center">
+                <h1 class="font-display-lg-mobile md:font-display-lg text-display-lg-mobile md:text-display-lg text-on-primary mb-stack-sm animate-fade-in-up">
+                    Área Académica
+                </h1>
+                <p class="font-body-lg text-body-lg text-[#FFE299] font-bold animate-fade-in-up-delay-1 tracking-wider uppercase">
+                    Especialidades Técnico-Profesionales de Nivel Medio
+                </p>
+            </div>
+        </section>
+
+        <!-- Academic Focus Section -->
+        <section class="py-section-padding bg-surface-container-lowest px-margin-mobile md:px-margin-desktop scroll-reveal">
+            <div class="max-w-container-max mx-auto">
+                <div class="text-center mb-16">
+                    <span class="font-label-md text-label-md text-on-primary-container bg-primary-fixed/20 px-3 py-1 rounded-full w-fit mx-auto mb-4 block">Formación TP</span>
+                    <h2 class="font-headline-md text-headline-md text-primary mb-4">Nuestras Especialidades Insignia</h2>
+                    <p class="font-body-lg text-body-lg text-on-surface-variant max-w-2xl mx-auto">
+                        Preparamos a nuestros estudiantes para integrarse con éxito al mundo laboral y continuar estudios superiores, combinando teoría sólida y práctica en laboratorios equipados con tecnología del más alto nivel.
+                    </p>
+                </div>
+
+                <!-- Specialties Grid (Asymmetrical Structure) -->
+                <div class="grid grid-cols-1 lg:grid-cols-2 gap-gutter items-stretch">
+                    <!-- Specialty 1: Administración -->
+                    <div class="group bg-surface rounded-2xl p-8 md:p-10 shadow-[0_4px_24px_rgba(0,0,0,0.04)] hover:shadow-[0_20px_40px_rgba(0,15,34,0.08)] border border-surface-container-high transition-all duration-500 ease-[cubic-bezier(0.16,1,0.3,1)] hover:-translate-y-1 flex flex-col justify-between">
+                        <div>
+                            <div class="w-14 h-14 rounded-full bg-primary-container/10 flex items-center justify-center text-primary-container mb-stack-md group-hover:bg-primary-container group-hover:text-on-primary transition-all duration-300">
+                                <span class="material-symbols-outlined" style="font-size: 28px;">badge</span>
+                            </div>
+                            <span class="font-label-md text-label-md text-primary font-bold tracking-wider uppercase block mb-1">Mención Recursos Humanos</span>
+                            <h3 class="font-headline-sm text-headline-sm text-on-surface mb-4 group-hover:text-primary transition-colors">Especialidad de Administración</h3>
+                            <p class="font-body-md text-body-md text-on-surface-variant leading-relaxed mb-6">
+                                Forma técnicos capacitados para administrar y gestionar estratégicamente el personal de una organización. El currículo cubre los procesos clave del ciclo laboral de los trabajadores en cumplimiento estricto con la normativa vigente en Chile.
+                            </p>
+                            
+                            <!-- Curricular Modules -->
+                            <div class="border-t border-outline-variant/20 pt-6 mb-6">
+                                <h4 class="font-label-md text-label-md text-primary font-bold mb-3">Módulos Curriculares Clave:</h4>
+                                <ul class="space-y-3">
+                                    <li class="flex items-start gap-2.5 text-sm text-on-surface-variant">
+                                        <span class="material-symbols-outlined text-primary text-[18px] mt-0.5">check_circle</span>
+                                        <span><strong>Legislación Laboral y Previsional:</strong> Contratación, derechos laborales y cotizaciones.</span>
+                                    </li>
+                                    <li class="flex items-start gap-2.5 text-sm text-on-surface-variant">
+                                        <span class="material-symbols-outlined text-primary text-[18px] mt-0.5">check_circle</span>
+                                        <span><strong>Remuneraciones y Finiquitos:</strong> Procesos mensuales de pago y desvinculaciones.</span>
+                                    </li>
+                                    <li class="flex items-start gap-2.5 text-sm text-on-surface-variant">
+                                        <span class="material-symbols-outlined text-primary text-[18px] mt-0.5">check_circle</span>
+                                        <span><strong>Reclutamiento y Selección:</strong> Atracción y evaluación del talento idóneo.</span>
+                                    </li>
+                                    <li class="flex items-start gap-2.5 text-sm text-on-surface-variant">
+                                        <span class="material-symbols-outlined text-primary text-[18px] mt-0.5">check_circle</span>
+                                        <span><strong>Software ERP de Personal:</strong> Manejo de herramientas tecnológicas corporativas.</span>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="bg-surface-container-low p-5 rounded-xl border border-outline-variant/10">
+                            <span class="font-label-md text-label-md text-primary font-bold block mb-1">Campo Ocupacional:</span>
+                            <p class="text-sm text-on-surface-variant leading-relaxed">
+                                Oficinas corporativas, consultoras de recursos humanos, áreas de personal en retail, municipalidades, ministerios, y asesorías independientes para PyMEs.
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- Specialty 2: Dibujo Técnico -->
+                    <div class="group bg-surface rounded-2xl p-8 md:p-10 shadow-[0_4px_24px_rgba(0,0,0,0.04)] hover:shadow-[0_20px_40px_rgba(0,15,34,0.08)] border border-surface-container-high transition-all duration-500 ease-[cubic-bezier(0.16,1,0.3,1)] hover:-translate-y-1 flex flex-col justify-between">
+                        <div>
+                            <div class="w-14 h-14 rounded-full bg-primary-container/10 flex items-center justify-center text-primary-container mb-stack-md group-hover:bg-primary-container group-hover:text-on-primary transition-all duration-300">
+                                <span class="material-symbols-outlined" style="font-size: 28px;">architecture</span>
+                            </div>
+                            <span class="font-label-md text-label-md text-primary font-bold tracking-wider uppercase block mb-1">Modelamiento y Diseño Digital</span>
+                            <h3 class="font-headline-sm text-headline-sm text-on-surface mb-4 group-hover:text-primary transition-colors">Especialidad en Dibujo Técnico</h3>
+                            <p class="font-body-md text-body-md text-on-surface-variant leading-relaxed mb-6">
+                                Prepara profesionales expertos en traducir conceptos e ideas en planos de alta precisión y modelos digitales 3D interactivos, esenciales para el éxito en el desarrollo de obras de ingeniería y arquitectura moderna.
+                            </p>
+                            
+                            <!-- Curricular Modules -->
+                            <div class="border-t border-outline-variant/20 pt-6 mb-6">
+                                <h4 class="font-label-md text-label-md text-primary font-bold mb-3">Módulos Curriculares Clave:</h4>
+                                <ul class="space-y-3">
+                                    <li class="flex items-start gap-2.5 text-sm text-on-surface-variant">
+                                        <span class="material-symbols-outlined text-primary text-[18px] mt-0.5">check_circle</span>
+                                        <span><strong>Diseño Asistido por Computador (CAD):</strong> Confección digital de planos 2D profesionales.</span>
+                                    </li>
+                                    <li class="flex items-start gap-2.5 text-sm text-on-surface-variant">
+                                        <span class="material-symbols-outlined text-primary text-[18px] mt-0.5">check_circle</span>
+                                        <span><strong>Modelamiento BIM (Revit/3D):</strong> Creación de maquetas virtuales estructurales.</span>
+                                    </li>
+                                    <li class="flex items-start gap-2.5 text-sm text-on-surface-variant">
+                                        <span class="material-symbols-outlined text-primary text-[18px] mt-0.5">check_circle</span>
+                                        <span><strong>Interpretación y Cubicaciones:</strong> Estimación exacta de materiales y medidas.</span>
+                                    </li>
+                                    <li class="flex items-start gap-2.5 text-sm text-on-surface-variant">
+                                        <span class="material-symbols-outlined text-primary text-[18px] mt-0.5">check_circle</span>
+                                        <span><strong>Topografía Básica:</strong> Levantamiento de terrenos e interpretación altimétrica.</span>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="bg-surface-container-low p-5 rounded-xl border border-outline-variant/10">
+                            <span class="font-label-md text-label-md text-primary font-bold block mb-1">Campo Ocupacional:</span>
+                            <p class="text-sm text-on-surface-variant leading-relaxed">
+                                Constructoras, estudios de arquitectura, empresas consultoras de ingeniería estructural, minería, modelamiento BIM freelance y empresas de servicios de diseño CAD.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Internships and Title Banner (Gemelo Simétrico a Little Apoyo) -->
+        <section class="py-section-padding bg-surface-container-low px-margin-mobile md:px-margin-desktop scroll-reveal">
+            <div class="max-w-container-max mx-auto">
+                <div class="bg-primary text-white rounded-2xl p-8 md:p-12 shadow-lg relative overflow-hidden flex flex-col lg:flex-row items-center gap-stack-lg border border-white/10">
+                    <div class="absolute inset-0 bg-pattern opacity-10 z-0"></div>
+                    <div class="w-full lg:w-2/3 relative z-10">
+                        <span class="font-label-md text-label-md text-[#FFE299] font-bold tracking-wider uppercase block mb-2">Inserción Laboral Real</span>
+                        <h2 class="font-headline-md text-headline-md text-white mb-4">Prácticas Profesionales y Titulación</h2>
+                        <p class="font-body-md text-body-md text-white/80 leading-relaxed mb-6">
+                            Nuestro compromiso formativo no termina en el aula. Contamos con una sólida red de convenios con prestigiosas empresas locales y nacionales, donde los estudiantes ponen a prueba sus conocimientos en prácticas de alto valor profesional. Al culminar con éxito, obtienen su título técnico oficial de nivel medio otorgado por el Ministerio de Educación.
+                        </p>
+                        <div class="flex flex-wrap gap-4 text-sm text-[#FFE299] font-bold">
+                            <span class="flex items-center gap-1">
+                                <span class="material-symbols-outlined text-[18px]">verified</span>
+                                Título Mineduc Oficial
+                            </span>
+                            <span class="flex items-center gap-1">
+                                <span class="material-symbols-outlined text-[18px]">handshake</span>
+                                Convenios Vigentes
+                            </span>
+                            <span class="flex items-center gap-1">
+                                <span class="material-symbols-outlined text-[18px]">support_agent</span>
+                                Tutoría en Terreno
+                            </span>
+                        </div>
+                    </div>
+                    <div class="w-full lg:w-1/3 flex justify-end relative z-10 shrink-0">
+                        <a href="admision-media.html" class="w-full lg:w-auto text-center bg-[#FFE299] text-primary font-bold text-label-md px-8 py-4 rounded hover:bg-[#FFD566] transition-all duration-300 shadow-md hover:-translate-y-0.5 flex items-center justify-center gap-2 group arrow-slide-hover">
+                            Admisión 2027
+                            <span class="material-symbols-outlined text-sm">arrow_forward</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-surface-container-lowest dark:bg-surface-container-high text-primary dark:text-primary-fixed full-width border-t-0 mt-auto bg-surface-container-low dark:bg-surface-container-highest">
+        <div class="grid grid-cols-1 md:grid-cols-4 gap-stack-lg px-margin-desktop py-section-padding max-w-container-max mx-auto">
+            <!-- Brand Column -->
+            <div class="col-span-1 md:col-span-1 flex flex-col items-start">
+                <div class="font-headline-sm text-headline-sm font-bold text-primary dark:text-primary-fixed mb-4">
+                    Falcon College
+                </div>
+                <p class="font-body-md text-body-md text-on-surface-variant mb-4">
+                    Excelencia académica e integralidad formativa en Quinta Normal.
+                </p>
+            </div>
+            <!-- Links Column 1 -->
+            <div class="col-span-1 md:col-span-1 flex flex-col space-y-3">
+                <a class="font-label-md text-label-md text-on-surface-variant hover:text-primary transition-colors hover:translate-x-1 transition-transform duration-200" href="nosotros-media.html">Sobre el Colegio</a>
+                <a class="font-label-md text-label-md text-on-surface-variant hover:text-primary transition-colors hover:translate-x-1 transition-transform duration-200" href="admision-media.html">Admisión</a>
+                <a class="font-label-md text-label-md text-on-surface-variant hover:text-primary transition-colors hover:translate-x-1 transition-transform duration-200" href="tecnico-profesional.html">Académica</a>
+            </div>
+            <!-- Links Column 2 -->
+            <div class="col-span-1 md:col-span-1 flex flex-col space-y-3">
+                <a class="font-label-md text-label-md text-on-surface-variant hover:text-primary transition-colors hover:translate-x-1 transition-transform duration-200" href="convivencia-media.html">RICE y Protocolos</a>
+                <a class="font-label-md text-label-md text-on-surface-variant hover:text-primary transition-colors hover:translate-x-1 transition-transform duration-200" href="contacto-media.html">Contacto</a>
+                <a class="font-label-md text-label-md text-tertiary-fixed-dim hover:text-tertiary-fixed transition-colors font-bold hover:translate-x-1 transition-transform duration-200" href="falcon-little.html">Falcon College Little</a>
+            </div>
+            <!-- Social/Contact Column -->
+            <div class="col-span-1 md:col-span-1 flex flex-col space-y-4">
+                <span class="font-label-md text-label-md text-primary font-bold">Redes Sociales</span>
+                <div class="flex space-x-4">
+                    <a class="w-10 h-10 rounded-full bg-surface-container flex items-center justify-center text-on-surface-variant hover:bg-primary-container hover:text-on-primary transition-colors" href="https://www.instagram.com/falconcollege_">
+                        <span class="material-symbols-outlined" style="font-size: 20px;">link</span>
+                    </a>
+                    <a class="w-10 h-10 rounded-full bg-surface-container flex items-center justify-center text-on-surface-variant hover:bg-primary-container hover:text-on-primary transition-colors" href="mailto:colegiofalconcollege@hotmail.com">
+                        <span class="material-symbols-outlined" style="font-size: 20px;">mail</span>
+                    </a>
+                </div>
+            </div>
+            <div class="col-span-1 md:col-span-4 mt-8 pt-8 border-t border-outline-variant/20 flex flex-col md:flex-row justify-between items-center text-sm text-on-surface-variant">
+                <span class="font-body-md text-body-md">© 2026 Falcon College. Todos los derechos reservados.</span>
+            </div>
+        </div>
+    </footer>
+    <script type="module" src="./src/main.js"></script>
+</body>
+</html>

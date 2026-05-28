@@ -1,0 +1,98 @@
+[
+  {
+    "id": "biblioteca-media",
+    "sede": "media",
+    "category": "infraestructura",
+    "title": "Biblioteca Institucional Sede Media",
+    "description": "Un espacio de silencio, sabiduría y concentración con más de 5,000 ejemplares y salas de estudio grupal.",
+    "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuDwQQ2XRhFBIWkNv6TESEIU_NQZ0dZt1z8sKgztnm1dWdl_ac1In95eELYM5Pd0HcQuTFkzSBRhaEatq4mt-LgU6300wFwHUzG1rYjITOGXs8FfFgnH3P1aCbcIVh6ltFLA-Wm6OX2d8wq3zI0BDeJabfMf2Y8BX0YKQr5KMXv6czt--r0nes7dzs17PFU5VJr46bPlvetLtc6NhLBmAdagsFGcHeZawMiiFFaTKVrs2qaUfcZKLVVBgVCiKlv--7bmazBL2UG7Zaqs"
+  },
+  {
+    "id": "taller-dibujo-media",
+    "sede": "media",
+    "category": "clases",
+    "title": "Sala de Dibujo Técnico y CAD",
+    "description": "Alumnos de Enseñanza Media desarrollando planos de ingeniería civil y maquetas estructurales 3D en Revit.",
+    "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuD3DTenhQbgwes_A9AO1VBCHtOELTsuYfaVZkbHSr71ZUFO8mSQiD5GgDoO3jbRvsXCUD64twitSbGhFumjAoW5DVtJFdnr1c29dR_zJvkMFt8GbAg_Mmy68AxA90U-SMwm62yRsyzEVKPh-GaCJ5Hx0ME5N0aOynAAd1f1c8pF2HWpPnM2Hnjq7rplvlwvddiYMADylC8Hj5xxJ3sqJHrLkVdMOKC_yGXIrNYwMLqA6dmc2wlXzswwvzsGOJ7TtPO_iMFeikHxRQOb"
+  },
+  {
+    "id": "estudio-outdoor-media",
+    "sede": "media",
+    "category": "eventos",
+    "title": "Jornada de Colaboración al Aire Libre",
+    "description": "Estudiantes de Enseñanza Media debatiendo sobre proyectos de administración y recursos humanos en el patio dorado.",
+    "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuDwQQ2XRhFBIWkNv6TESEIU_NQZ0dZt1z8sKgztnm1dWdl_ac1In95eELYM5Pd0HcQuTFkzSBRhaEatq4mt-LgU6300wFwHUzG1rYjITOGXs8FfFgnH3P1aCbcIVh6ltFLA-Wm6OX2d8wq3zI0BDeJabfMf2Y8BX0YKQr5KMXv6czt--r0nes7dzs17PFU5VJr46bPlvetLtc6NhLBmAdagsFGcHeZawMiiFFaTKVrs2qaUfcZKLVVBgVCiKlv--7bmazBL2UG7Zaqs"
+  },
+  {
+    "id": "laboratorio-ciencias-media",
+    "sede": "media",
+    "category": "clases",
+    "title": "Laboratorio de Ciencias Aplicadas",
+    "description": "Sesiones prácticas donde se fusionan la química experimental y la investigación tecnológica escolar.",
+    "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuD3DTenhQbgwes_A9AO1VBCHtOELTsuYfaVZkbHSr71ZUFO8mSQiD5GgDoO3jbRvsXCUD64twitSbGhFumjAoW5DVtJFdnr1c29dR_zJvkMFt8GbAg_Mmy68AxA90U-SMwm62yRsyzEVKPh-GaCJ5Hx0ME5N0aOynAAd1f1c8pF2HWpPnM2Hnjq7rplvlwvddiYMADylC8Hj5xxJ3sqJHrLkVdMOKC_yGXIrNYwMLqA6dmc2wlXzswwvzsGOJ7TtPO_iMFeikHxRQOb"
+  },
+  {
+    "id": "convenio-dual-media",
+    "sede": "media",
+    "category": "infraestructura",
+    "title": "Fachada y Hall de Acceso Institucional",
+    "description": "Entrada principal corporativa de Enseñanza Media, representando el portal hacia el futuro técnico y universitario.",
+    "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuAFVJWKEHtITzqHzPTyxzEbHoIPiccI03_lxtB5vJMTIulGwjOzY6uRxfJobMiNKJVlASM6xbkd2XRSO5EL7d_d1SUFA-Yl1YB6SbWrgMlsT7BF_wEmDgPs3PG0WSdCIN2bDsD-fjn8wZYrfZUQqEYy6mu-W_0VWwU0eeQ3yUNIV22D28Rlxuha1JwNGZQNQ8YAKZbtEFLqeXx8C3jrw1qZu_RvWgIHPwT2dwJUU5xxxUsgM36Fr4Eadpfm_45pKDyBgz60yH8dX-lM"
+  },
+  {
+    "id": "deportes-futbol-media",
+    "sede": "media",
+    "category": "eventos",
+    "title": "Taller de Ajedrez y Torneos Escolares",
+    "description": "Alumnos compitiendo en el circuito comunal, potenciando el análisis estratégico y la concentración mental.",
+    "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuDwQQ2XRhFBIWkNv6TESEIU_NQZ0dZt1z8sKgztnm1dWdl_ac1In95eELYM5Pd0HcQuTFkzSBRhaEatq4mt-LgU6300wFwHUzG1rYjITOGXs8FfFgnH3P1aCbcIVh6ltFLA-Wm6OX2d8wq3zI0BDeJabfMf2Y8BX0YKQr5KMXv6czt--r0nes7dzs17PFU5VJr46bPlvetLtc6NhLBmAdagsFGcHeZawMiiFFaTKVrs2qaUfcZKLVVBgVCiKlv--7bmazBL2UG7Zaqs"
+  },
+  {
+    "id": "patio-recreo-little",
+    "sede": "little",
+    "category": "infraestructura",
+    "title": "Patio Lúdico y Área de Juegos Little",
+    "description": "Espacios recreativos techados diseñados para el esparcimiento seguro y alegre de los niveles iniciales.",
+    "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuAusytrldcpWJmhC095lEaLiD0cKvpwPGnsHLGyGEjj0p7ATp5yYCUnmZ_nPkHqhNKo0KSwKy7EA_nhVwTgWMs_ok2a8rc3QsC0dppavHKJYS3YRHlTQ4-1ux0LVAer3zG1QzN2FVvKYSwt48pQZ_UzF_1bMvkS74zY1W6TQb6EriypAgXmAWQ_qOC1vjwSiJLnFq9JEUyhd4idG0YfnEPiXlA9ze9WuJ49aHBOaU1QMDUp60NL_YLM-aQe_asFEupfpu1zA0A4QcnW"
+  },
+  {
+    "id": "estimulacion-parvularia-little",
+    "sede": "little",
+    "category": "clases",
+    "title": "Juego Sensorial en Educación Parvularia",
+    "description": "Nuestros alumnos más pequeños de Pre-Kinder desarrollando motricidad fina y coordinación en un ambiente lúdico.",
+    "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuA3VX35saF1fd6-yYbNj3UJcKqMv60PcaXhi8lmmQt8UgxCLh22af2gHRKAK-bXJRvqYykaddx3i9Q3R3wnt7Y7Hs8rXNZ2elGJj_yyD1GdDoZANRKFbPJvA2K10J_uV4wOKkZ3YZNmLsyMsmUmXtG-9Z-2l3nfYsmz9gl62mzeQY-DM7AQD6IHKuzLcMz7abRFlUHraqlSsDu1h7rQbscjH4nZe-79Sfs1POqT6R53blQekjPfwRs8UQG21y3VQShqT2AwBdt_L5SV"
+  },
+  {
+    "id": "cooperativo-kinder-little",
+    "sede": "little",
+    "category": "clases",
+    "title": "Proyecto Artístico Cooperativo en Kinder",
+    "description": "Fomentando el trabajo en equipo, el compañerismo y la creatividad grupal en nuestra sala de artes integradas.",
+    "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuB5-X2EsmjP9XdiOKbqTB8gYCGi3lclAqgfEI-8kjQBV9HaDAT60uWeNVI_vF9EnqQ0Ai9LbrP_kU5bnlg7FPROpsMb45pZfzfcUf_ynKBbztW21WO9ELP0y2pIP6p8vLvjP9GoNoGOqAOsQMR63Pv4TvIPq-9b-Y43Q2NDBZhuDp3zILggjV2cGCkqsUZCkxPJyYBtED7BQwCxpdJkkVMAsSpXbCEGJPsFHaZQ4LYbD1UcE5sBAZW-TjMb2BlFmtjRAo1MAKpjgrpC"
+  },
+  {
+    "id": "biblioteca-lectura-little",
+    "sede": "little",
+    "category": "infraestructura",
+    "title": "Rincón de Lectura Infantil Sede Básica",
+    "description": "Una acogedora biblioteca adaptada para motivar y desarrollar la lectura activa y comprensión de los estudiantes de básica.",
+    "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuC7AD_eMEQDoJjpjpOuTMdDyOTP5QgVu8M6IvPj2c6koityuWZ7Ssgst0owXVLT1tWF1AN8mNUjPiM8RBkIA9mp_cy8XQ6wQKVDoqUTMw6tlJj6tsjTpAXwI9yspuJmtiUhBq9KYCbUHrNEjOyudTHqq6DIHK6ULh-3J1qmGESJ54Bcu_WktolrQU6cDjziQZCs7WwSaUfNFpyZ4TM8IFz_gXNX1Wlc10ndTTryVw4LLuuurBNK4dBHchI8Zv788odL_kcCib-Gu2Ib"
+  },
+  {
+    "id": "ciencia-experimento-little",
+    "sede": "little",
+    "category": "eventos",
+    "title": "Feria Científica: Pequeños Científicos",
+    "description": "Estudiantes de básica demostrando conceptos ecológicos, germinaciones e indagaciones directas sobre el medio ambiente.",
+    "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuADiBRD-N6zRt04hvbKUpPhrR61Mq_qhcDJh0sH_RBmVTUAlJp4Z2kNC66-jm3L_asSLp3ltkV9HoeXK6v3u05X6gJ087t2hhDT81eFgAIe-ltWOC_ru_toA_IdyYFcJuAmcSOjLW0y4OtoJejwqHXlcmZGB_0Q9rdjngBVO4K0vgc64d2F0hwBs-LEQv6v1OEpxPOnSykgWVEGywLQrB_BBd9IxKhJAhomVKyruyYnjTV_S2NKisotBJgzk-AJfrW3-oV0h0d_safl"
+  },
+  {
+    "id": "patio-central-little",
+    "sede": "little",
+    "category": "infraestructura",
+    "title": "Iniciativas en el Patio Central de Básica",
+    "description": "Una hermosa mañana soleada donde los alumnos disfrutan de actividades folclóricas y cuidado ecológico de huertos.",
+    "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuAusytrldcpWJmhC095lEaLiD0cKvpwPGnsHLGyGEjj0p7ATp5yYCUnmZ_nPkHqhNKo0KSwKy7EA_nhVwTgWMs_ok2a8rc3QsC0dppavHKJYS3YRHlTQ4-1ux0LVAer3zG1QzN2FVvKYSwt48pQZ_UzF_1bMvkS74zY1W6TQb6EriypAgXmAWQ_qOC1vjwSiJLnFq9JEUyhd4idG0YfnEPiXlA9ze9WuJ49aHBOaU1QMDUp60NL_YLM-aQe_asFEupfpu1zA0A4QcnW"
+  }
+]
