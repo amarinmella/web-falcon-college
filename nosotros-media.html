@@ -77,6 +77,30 @@
             </div>
         </section>
 
+        <!-- Director's Welcome Video Section -->
+        <section class="py-section-padding bg-surface px-margin-mobile md:px-margin-desktop scroll-reveal border-b border-outline-variant/10">
+            <div class="max-w-container-max mx-auto flex flex-col lg:flex-row gap-12 items-center relative">
+                <!-- Text Content -->
+                <div class="w-full lg:w-5/12 flex flex-col justify-center items-start text-left">
+                    <span class="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-primary-fixed/20 text-on-primary-container font-bold text-xs tracking-widest uppercase mb-4 border border-primary-fixed/30">
+                        <span class="material-symbols-outlined text-[16px]">play_circle</span>
+                        Mensaje de Bienvenida
+                    </span>
+                    <h2 class="font-headline-md text-headline-md text-primary mb-4 leading-tight">
+                        «Educamos desde el respeto, para un futuro brillante»
+                    </h2>
+                    <p class="font-body-lg text-body-lg text-on-surface-variant mb-6 leading-relaxed">
+                        Te invitamos a escuchar el mensaje de nuestra Dirección, donde compartimos nuestra visión educativa, los valores que nos inspiran y el compromiso inquebrantable que tenemos con la formación integral de cada estudiante.
+                    </p>
+                </div>
+                
+                <!-- Video Container -->
+                <div class="w-full lg:w-7/12 aspect-video rounded-2xl overflow-hidden shadow-2xl border border-outline-variant/20 relative bg-black group hover:shadow-[0_20px_40px_-5px_rgba(176,200,235,0.25)] transition-shadow duration-500">
+                    <iframe class="w-full h-full" src="https://www.youtube.com/embed/LXb3EKWsInQ?si=0lB2-3h5T3nL3QW-" title="Mensaje de Bienvenida" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+            </div>
+        </section>
+
         <!-- Split Layout (Misión & Visión) -->
         <section class="py-section-padding bg-surface-container-lowest px-margin-mobile md:px-margin-desktop scroll-reveal">
             <div class="max-w-container-max mx-auto flex flex-col lg:flex-row gap-stack-lg items-center">
@@ -153,6 +177,273 @@
                             Fomentamos una relación cercana y colaborativa entre las familias y el colegio para asegurar el acompañamiento y éxito de nuestros jóvenes.
                         </p>
                     </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Equipo Directivo Section -->
+        <section class="py-section-padding bg-surface px-margin-mobile md:px-margin-desktop scroll-reveal">
+            <div class="max-w-container-max mx-auto">
+                <div class="text-center mb-16">
+                    <span class="font-label-md text-label-md text-on-primary-container bg-primary-fixed/20 px-3 py-1 rounded-full w-fit mx-auto mb-4 block">Nuestro Equipo</span>
+                    <h2 class="font-headline-md text-headline-md text-primary mb-4">Cuerpo Directivo</h2>
+                    <p class="font-body-lg text-body-lg text-on-surface-variant max-w-2xl mx-auto">
+                        Conoce a los profesionales comprometidos con liderar nuestra comunidad educativa hacia la excelencia y el bienestar integral.
+                    </p>
+                </div>
+
+                <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
+                    <!-- Director -->
+                    <div class="group relative bg-surface-container-lowest rounded-2xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-500 ease-out border border-outline-variant/20 hover:-translate-y-2">
+                        <div class="aspect-[4/5] overflow-hidden relative">
+                            <img src="director_portrait.png" alt="Director" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700">
+                            <div class="absolute inset-0 bg-gradient-to-t from-primary/90 via-primary/20 to-transparent opacity-80 group-hover:opacity-90 transition-opacity duration-300"></div>
+                            <div class="absolute bottom-0 left-0 w-full p-6 translate-y-4 group-hover:translate-y-0 transition-transform duration-500">
+                                <span class="text-[#FFE299] font-bold text-sm tracking-wider uppercase mb-1 block drop-shadow-sm">Director</span>
+                                <h3 class="text-white font-headline-sm text-lg mb-2 drop-shadow-md">Carlos Ramírez</h3>
+                                <a href="mailto:director@falconcollege.cl" class="text-white/80 hover:text-white flex items-center gap-2 text-sm opacity-0 group-hover:opacity-100 transition-opacity duration-500 delay-100">
+                                    <span class="material-symbols-outlined text-[18px]">mail</span>
+                                    director@falconcollege.cl
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Jefa UTP -->
+                    <div class="group relative bg-surface-container-lowest rounded-2xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-500 ease-out border border-outline-variant/20 hover:-translate-y-2 delay-[50ms]">
+                        <div class="aspect-[4/5] overflow-hidden relative">
+                            <img src="jefa_utp_portrait.png" alt="Jefa de Unidad Técnica Pedagógica" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700">
+                            <div class="absolute inset-0 bg-gradient-to-t from-primary/90 via-primary/20 to-transparent opacity-80 group-hover:opacity-90 transition-opacity duration-300"></div>
+                            <div class="absolute bottom-0 left-0 w-full p-6 translate-y-4 group-hover:translate-y-0 transition-transform duration-500">
+                                <span class="text-[#FFE299] font-bold text-sm tracking-wider uppercase mb-1 block drop-shadow-sm">Jefa UTP</span>
+                                <h3 class="text-white font-headline-sm text-lg mb-2 drop-shadow-md">Andrea Sepúlveda</h3>
+                                <a href="mailto:utp@falconcollege.cl" class="text-white/80 hover:text-white flex items-center gap-2 text-sm opacity-0 group-hover:opacity-100 transition-opacity duration-500 delay-100">
+                                    <span class="material-symbols-outlined text-[18px]">mail</span>
+                                    utp@falconcollege.cl
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Inspector General -->
+                    <div class="group relative bg-surface-container-lowest rounded-2xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-500 ease-out border border-outline-variant/20 hover:-translate-y-2 delay-[100ms]">
+                        <div class="aspect-[4/5] overflow-hidden relative">
+                            <img src="inspector_general_portrait.png" alt="Inspector General" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700">
+                            <div class="absolute inset-0 bg-gradient-to-t from-primary/90 via-primary/20 to-transparent opacity-80 group-hover:opacity-90 transition-opacity duration-300"></div>
+                            <div class="absolute bottom-0 left-0 w-full p-6 translate-y-4 group-hover:translate-y-0 transition-transform duration-500">
+                                <span class="text-[#FFE299] font-bold text-sm tracking-wider uppercase mb-1 block drop-shadow-sm">Inspector General</span>
+                                <h3 class="text-white font-headline-sm text-lg mb-2 drop-shadow-md">Luis Mendoza</h3>
+                                <a href="mailto:inspector@falconcollege.cl" class="text-white/80 hover:text-white flex items-center gap-2 text-sm opacity-0 group-hover:opacity-100 transition-opacity duration-500 delay-100">
+                                    <span class="material-symbols-outlined text-[18px]">mail</span>
+                                    inspector@falconcollege.cl
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Encargada de Convivencia -->
+                    <div class="group relative bg-surface-container-lowest rounded-2xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-500 ease-out border border-outline-variant/20 hover:-translate-y-2 delay-[150ms]">
+                        <div class="aspect-[4/5] overflow-hidden relative">
+                            <img src="encargada_convivencia_portrait.png" alt="Encargada de Convivencia Educativa" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700">
+                            <div class="absolute inset-0 bg-gradient-to-t from-primary/90 via-primary/20 to-transparent opacity-80 group-hover:opacity-90 transition-opacity duration-300"></div>
+                            <div class="absolute bottom-0 left-0 w-full p-6 translate-y-4 group-hover:translate-y-0 transition-transform duration-500">
+                                <span class="text-[#FFE299] font-bold text-sm tracking-wider uppercase mb-1 block drop-shadow-sm">Encargada Convivencia</span>
+                                <h3 class="text-white font-headline-sm text-lg mb-2 drop-shadow-md">Carolina Rojas</h3>
+                                <a href="mailto:convivencia@falconcollege.cl" class="text-white/80 hover:text-white flex items-center gap-2 text-sm opacity-0 group-hover:opacity-100 transition-opacity duration-500 delay-100">
+                                    <span class="material-symbols-outlined text-[18px]">mail</span>
+                                    convivencia@falconcollege.cl
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Directorio de Personal Section -->
+        <section class="py-section-padding bg-surface-container-low px-margin-mobile md:px-margin-desktop scroll-reveal border-t border-outline-variant/10">
+            <div class="max-w-container-max mx-auto">
+                <div class="text-center mb-12">
+                    <span class="font-label-md text-label-md text-on-primary-container bg-primary-fixed/20 px-3 py-1 rounded-full w-fit mx-auto mb-4 block">Nuestro Equipo</span>
+                    <h2 class="font-headline-md text-headline-md text-primary mb-4">Directorio de Personal</h2>
+                    <p class="font-body-lg text-body-lg text-on-surface-variant max-w-2xl mx-auto">
+                        Conoce a todos los profesionales que hacen posible nuestro proyecto educativo día a día.
+                    </p>
+                </div>
+
+                <div class="space-y-6 max-w-4xl mx-auto">
+                    <!-- Profesores Jefes -->
+                    <details class="group bg-surface border border-outline-variant/30 rounded-xl overflow-hidden shadow-sm hover:shadow-md transition-all open:pb-4" open>
+                        <summary class="flex justify-between items-center p-4 cursor-pointer list-none [&::-webkit-details-marker]:hidden bg-surface-container-lowest group-open:bg-surface-container-low transition-colors group-open:border-b group-open:border-outline-variant/30 group-open:mb-4">
+                            <div class="flex items-center gap-3">
+                                <span class="material-symbols-outlined text-primary">history_edu</span>
+                                <h3 class="font-display-sm text-xl text-primary uppercase tracking-wide m-0">Correos Profesores Jefes</h3>
+                            </div>
+                            <span class="material-symbols-outlined transition-transform duration-300 group-open:-rotate-180 text-on-surface-variant">expand_more</span>
+                        </summary>
+                        <div class="flex flex-col gap-2 px-4">
+                            <!-- Row 1 -->
+                            <div class="flex flex-col sm:flex-row sm:items-center py-2 border-b border-outline-variant/10 hover:bg-surface-container/50 transition-colors px-2 rounded-lg">
+                                <div class="w-full sm:w-24 font-bold text-on-surface">1°A</div>
+                                <div class="w-full sm:w-64 text-on-surface-variant">Andrea Vergara</div>
+                                <div class="w-full sm:flex-1 mt-1 sm:mt-0">
+                                    <a href="mailto:andrea.vergara@falconcollege.cl" class="text-primary hover:text-primary-fixed hover:underline inline-flex items-center gap-1">
+                                        andrea.vergara@falconcollege.cl
+                                    </a>
+                                </div>
+                            </div>
+                            <!-- Row 2 -->
+                            <div class="flex flex-col sm:flex-row sm:items-center py-2 border-b border-outline-variant/10 hover:bg-surface-container/50 transition-colors px-2 rounded-lg">
+                                <div class="w-full sm:w-24 font-bold text-on-surface">1°B</div>
+                                <div class="w-full sm:w-64 text-on-surface-variant">Isaac Rojas</div>
+                                <div class="w-full sm:flex-1 mt-1 sm:mt-0">
+                                    <a href="mailto:isaac.rojas@falconcollege.cl" class="text-primary hover:text-primary-fixed hover:underline inline-flex items-center gap-1">
+                                        isaac.rojas@falconcollege.cl
+                                    </a>
+                                </div>
+                            </div>
+                            <!-- Row 3 -->
+                            <div class="flex flex-col sm:flex-row sm:items-center py-2 border-b border-outline-variant/10 hover:bg-surface-container/50 transition-colors px-2 rounded-lg">
+                                <div class="w-full sm:w-24 font-bold text-on-surface">1°C</div>
+                                <div class="w-full sm:w-64 text-on-surface-variant">Nicolas Bustos Ayala</div>
+                                <div class="w-full sm:flex-1 mt-1 sm:mt-0">
+                                    <a href="mailto:nicolas.bustos@falconcollege.cl" class="text-primary hover:text-primary-fixed hover:underline inline-flex items-center gap-1">
+                                        nicolas.bustos@falconcollege.cl
+                                    </a>
+                                </div>
+                            </div>
+                            <!-- Row 4 -->
+                            <div class="flex flex-col sm:flex-row sm:items-center py-2 border-b border-outline-variant/10 hover:bg-surface-container/50 transition-colors px-2 rounded-lg">
+                                <div class="w-full sm:w-24 font-bold text-on-surface">1°D</div>
+                                <div class="w-full sm:w-64 text-on-surface-variant">Maria Ortega</div>
+                                <div class="w-full sm:flex-1 mt-1 sm:mt-0">
+                                    <a href="mailto:maria.ortega@falconcollege.cl" class="text-primary hover:text-primary-fixed hover:underline inline-flex items-center gap-1">
+                                        maria.ortega@falconcollege.cl
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </details>
+
+                    <!-- Profesores Asignatura -->
+                    <details class="group bg-surface border border-outline-variant/30 rounded-xl overflow-hidden shadow-sm hover:shadow-md transition-all open:pb-4">
+                        <summary class="flex justify-between items-center p-4 cursor-pointer list-none [&::-webkit-details-marker]:hidden bg-surface-container-lowest group-open:bg-surface-container-low transition-colors group-open:border-b group-open:border-outline-variant/30 group-open:mb-4">
+                            <div class="flex items-center gap-3">
+                                <span class="material-symbols-outlined text-primary">menu_book</span>
+                                <h3 class="font-display-sm text-xl text-primary uppercase tracking-wide m-0">Correos Profesores Asignatura</h3>
+                            </div>
+                            <span class="material-symbols-outlined transition-transform duration-300 group-open:-rotate-180 text-on-surface-variant">expand_more</span>
+                        </summary>
+                        <div class="px-4">
+                            <!-- LENGUAJE -->
+                            <div class="mb-6">
+                                <h4 class="text-lg text-on-surface mb-3 uppercase tracking-wider font-light">LENGUAJE</h4>
+                                <div class="flex flex-col gap-2 pl-2">
+                                    <div class="flex flex-col sm:flex-row sm:items-center relative py-1 hover:bg-surface-container/50 transition-colors px-2 rounded-lg">
+                                        <div class="absolute left-2 top-1/2 -translate-y-1/2 w-1.5 h-1.5 bg-on-surface rounded-sm"></div>
+                                        <div class="w-full sm:w-64 text-on-surface-variant pl-4">Maria Ortega</div>
+                                        <div class="w-full sm:flex-1 mt-1 sm:mt-0 pl-4 sm:pl-0">
+                                            <a href="mailto:maria.ortega@falconcollege.cl" class="text-primary hover:text-primary-fixed hover:underline inline-flex items-center gap-1 border-b border-outline-variant/30 pb-0.5">
+                                                maria.ortega@falconcollege.cl
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="flex flex-col sm:flex-row sm:items-center relative py-1 hover:bg-surface-container/50 transition-colors px-2 rounded-lg">
+                                        <div class="absolute left-2 top-1/2 -translate-y-1/2 w-1.5 h-1.5 bg-on-surface rounded-sm"></div>
+                                        <div class="w-full sm:w-64 text-on-surface-variant pl-4">Yolanda Torres</div>
+                                        <div class="w-full sm:flex-1 mt-1 sm:mt-0 pl-4 sm:pl-0">
+                                            <a href="mailto:yolanda.torres@falconcollege.cl" class="text-primary hover:text-primary-fixed hover:underline inline-flex items-center gap-1 border-b border-outline-variant/30 pb-0.5">
+                                                yolanda.torres@falconcollege.cl
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- INGLES -->
+                            <div class="mb-4">
+                                <h4 class="text-lg text-on-surface mb-3 uppercase tracking-wider font-light">INGLES</h4>
+                                <div class="flex flex-col gap-2 pl-2">
+                                    <div class="flex flex-col sm:flex-row sm:items-center relative py-1 hover:bg-surface-container/50 transition-colors px-2 rounded-lg">
+                                        <div class="absolute left-2 top-1/2 -translate-y-1/2 w-1.5 h-1.5 bg-on-surface rounded-sm"></div>
+                                        <div class="w-full sm:w-64 text-on-surface-variant pl-4">Isaac Rojas</div>
+                                        <div class="w-full sm:flex-1 mt-1 sm:mt-0 pl-4 sm:pl-0">
+                                            <a href="mailto:isaac.rojas@falconcollege.cl" class="text-primary hover:text-primary-fixed hover:underline inline-flex items-center gap-1 border-b border-outline-variant/30 pb-0.5">
+                                                isaac.rojas@falconcollege.cl
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="flex flex-col sm:flex-row sm:items-center relative py-1 hover:bg-surface-container/50 transition-colors px-2 rounded-lg">
+                                        <div class="absolute left-2 top-1/2 -translate-y-1/2 w-1.5 h-1.5 bg-on-surface rounded-sm"></div>
+                                        <div class="w-full sm:w-64 text-on-surface-variant pl-4">Maria J. Mancilla</div>
+                                        <div class="w-full sm:flex-1 mt-1 sm:mt-0 pl-4 sm:pl-0">
+                                            <a href="mailto:maria.mancilla@falconcollege.cl" class="text-primary hover:text-primary-fixed hover:underline inline-flex items-center gap-1 border-b border-outline-variant/30 pb-0.5">
+                                                maria.mancilla@falconcollege.cl
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </details>
+
+                    <!-- Asistentes de la Educación -->
+                    <details class="group bg-surface border border-outline-variant/30 rounded-xl overflow-hidden shadow-sm hover:shadow-md transition-all open:pb-4">
+                        <summary class="flex justify-between items-center p-4 cursor-pointer list-none [&::-webkit-details-marker]:hidden bg-surface-container-lowest group-open:bg-surface-container-low transition-colors group-open:border-b group-open:border-outline-variant/30 group-open:mb-4">
+                            <div class="flex items-center gap-3">
+                                <span class="material-symbols-outlined text-primary">diversity_3</span>
+                                <h3 class="font-display-sm text-xl text-primary uppercase tracking-wide m-0">Correos Asistentes de la Educación</h3>
+                            </div>
+                            <span class="material-symbols-outlined transition-transform duration-300 group-open:-rotate-180 text-on-surface-variant">expand_more</span>
+                        </summary>
+                        <div class="flex flex-col gap-2 px-4">
+                            <div class="flex flex-col sm:flex-row sm:items-center py-2 border-b border-outline-variant/10 hover:bg-surface-container/50 transition-colors px-2 rounded-lg">
+                                <div class="w-full sm:w-64 text-on-surface-variant">Patricia Gómez</div>
+                                <div class="w-full sm:flex-1 mt-1 sm:mt-0">
+                                    <a href="mailto:pgomez@falconcollege.cl" class="text-primary hover:text-primary-fixed hover:underline inline-flex items-center gap-1 border-b border-outline-variant/30 pb-0.5">
+                                        pgomez@falconcollege.cl
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="flex flex-col sm:flex-row sm:items-center py-2 border-b border-outline-variant/10 hover:bg-surface-container/50 transition-colors px-2 rounded-lg">
+                                <div class="w-full sm:w-64 text-on-surface-variant">Roberto Núñez</div>
+                                <div class="w-full sm:flex-1 mt-1 sm:mt-0">
+                                    <a href="mailto:rnunez@falconcollege.cl" class="text-primary hover:text-primary-fixed hover:underline inline-flex items-center gap-1 border-b border-outline-variant/30 pb-0.5">
+                                        rnunez@falconcollege.cl
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </details>
+
+                    <!-- Administrativos y Auxiliares -->
+                    <details class="group bg-surface border border-outline-variant/30 rounded-xl overflow-hidden shadow-sm hover:shadow-md transition-all open:pb-4">
+                        <summary class="flex justify-between items-center p-4 cursor-pointer list-none [&::-webkit-details-marker]:hidden bg-surface-container-lowest group-open:bg-surface-container-low transition-colors group-open:border-b group-open:border-outline-variant/30 group-open:mb-4">
+                            <div class="flex items-center gap-3">
+                                <span class="material-symbols-outlined text-primary">support_agent</span>
+                                <h3 class="font-display-sm text-xl text-primary uppercase tracking-wide m-0">Correos Administrativos y Auxiliares</h3>
+                            </div>
+                            <span class="material-symbols-outlined transition-transform duration-300 group-open:-rotate-180 text-on-surface-variant">expand_more</span>
+                        </summary>
+                        <div class="flex flex-col gap-2 px-4">
+                            <div class="flex flex-col sm:flex-row sm:items-center py-2 border-b border-outline-variant/10 hover:bg-surface-container/50 transition-colors px-2 rounded-lg">
+                                <div class="w-full sm:w-64 text-on-surface-variant">Lorena Torres</div>
+                                <div class="w-full sm:flex-1 mt-1 sm:mt-0">
+                                    <a href="mailto:ltorres@falconcollege.cl" class="text-primary hover:text-primary-fixed hover:underline inline-flex items-center gap-1 border-b border-outline-variant/30 pb-0.5">
+                                        ltorres@falconcollege.cl
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="flex flex-col sm:flex-row sm:items-center py-2 border-b border-outline-variant/10 hover:bg-surface-container/50 transition-colors px-2 rounded-lg">
+                                <div class="w-full sm:w-64 text-on-surface-variant">Margarita Fuentes</div>
+                                <div class="w-full sm:flex-1 mt-1 sm:mt-0">
+                                    <a href="mailto:mfuentes@falconcollege.cl" class="text-primary hover:text-primary-fixed hover:underline inline-flex items-center gap-1 border-b border-outline-variant/30 pb-0.5">
+                                        mfuentes@falconcollege.cl
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </details>
                 </div>
             </div>
         </section>
