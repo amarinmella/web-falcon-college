@@ -231,7 +231,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     async function initDynamicNews(sede) {
         try {
-            const response = await fetch('/noticias.json');
+            const response = await fetch('./noticias.json');
             if (!response.ok) throw new Error('No se pudo cargar la base de datos de noticias.');
             const newsData = await response.json();
             
@@ -477,7 +477,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     async function initDynamicGallery(sede) {
         try {
-            const response = await fetch('/galeria.json');
+            const response = await fetch('./galeria.json');
             if (!response.ok) throw new Error('No se pudo cargar la base de datos de galería.');
             const rawItems = await response.json();
             
