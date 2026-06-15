@@ -20,7 +20,7 @@
     "sede": "media",
     "category": "eventos",
     "title": "Jornada de Colaboración al Aire Libre",
-    "description": "Estudiantes de Enseñanza Media debatiendo sobre proyectos de administración y recursos humanos en el patio dorado.",
+    "description": "Estudiantes de Enseñanza Media debate sobre proyectos de administración y recursos humanos en el patio dorado.",
     "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuDwQQ2XRhFBIWkNv6TESEIU_NQZ0dZt1z8sKgztnm1dWdl_ac1In95eELYM5Pd0HcQuTFkzSBRhaEatq4mt-LgU6300wFwHUzG1rYjITOGXs8FfFgnH3P1aCbcIVh6ltFLA-Wm6OX2d8wq3zI0BDeJabfMf2Y8BX0YKQr5KMXv6czt--r0nes7dzs17PFU5VJr46bPlvetLtc6NhLBmAdagsFGcHeZawMiiFFaTKVrs2qaUfcZKLVVBgVCiKlv--7bmazBL2UG7Zaqs"
   },
   {
@@ -94,5 +94,325 @@
     "title": "Iniciativas en el Patio Central de Básica",
     "description": "Una hermosa mañana soleada donde los alumnos disfrutan de actividades folclóricas y cuidado ecológico de huertos.",
     "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuAusytrldcpWJmhC095lEaLiD0cKvpwPGnsHLGyGEjj0p7ATp5yYCUnmZ_nPkHqhNKo0KSwKy7EA_nhVwTgWMs_ok2a8rc3QsC0dppavHKJYS3YRHlTQ4-1ux0LVAer3zG1QzN2FVvKYSwt48pQZ_UzF_1bMvkS74zY1W6TQb6EriypAgXmAWQ_qOC1vjwSiJLnFq9JEUyhd4idG0YfnEPiXlA9ze9WuJ49aHBOaU1QMDUp60NL_YLM-aQe_asFEupfpu1zA0A4QcnW"
+  },
+  {
+    "id": "img-2638-little",
+    "sede": "little",
+    "category": "clases",
+    "title": "Actividad Práctica de Matemáticas",
+    "description": "Estudiantes del ciclo básico de Falcon Little realizando una entretenida actividad interactiva de matemáticas en su sala de clases.",
+    "image": "https://falconcollege.cl/wp-content/uploads/2025/08/IMG_2638-scaled.jpeg"
+  },
+  {
+    "id": "img-2642-little",
+    "sede": "little",
+    "category": "clases",
+    "title": "Taller de Lectura y Comprensión",
+    "description": "Alumnos compartiendo lecturas y desarrollando habilidades de comprensión y debate en sus pupitres.",
+    "image": "https://falconcollege.cl/wp-content/uploads/2025/08/IMG_2642-scaled.jpeg"
+  },
+  {
+    "id": "img-2648-little",
+    "sede": "little",
+    "category": "eventos",
+    "title": "Laboratorio de Ciencias en Básica",
+    "description": "Experiencias de aprendizaje práctico e inductivo en la sala de clases con experimentos y observación directa.",
+    "image": "https://falconcollege.cl/wp-content/uploads/2025/08/IMG_2648-scaled.jpeg"
+  },
+  {
+    "id": "img-5200-little",
+    "sede": "little",
+    "category": "eventos",
+    "title": "Presentación Escolar Falcon Little",
+    "description": "Alumnos del ciclo básico participando alegremente de las ceremonias institucionales y actos cívicos.",
+    "image": "https://falconcollege.cl/wp-content/uploads/2024/11/IMG_5200-scaled.webp"
+  },
+  {
+    "id": "img-2738-little",
+    "sede": "little",
+    "category": "clases",
+    "title": "Proyectos de Geometría y Manualidades",
+    "description": "Desarrollo de proyectos manuales creativos para comprender conceptos matemáticos y espaciales básicos.",
+    "image": "https://falconcollege.cl/wp-content/uploads/2024/11/IMG_2738-scaled.webp"
+  },
+  {
+    "id": "dia-actividad-fisica-little",
+    "sede": "little",
+    "category": "eventos",
+    "title": "Día de la Actividad Física",
+    "description": "Jornada deportiva y recreativa promoviendo la vida sana y la integración escolar a través del deporte.",
+    "image": "https://falconcollege.cl/wp-content/uploads/2023/05/Dia-de-la-Actividad-Fisica-Falcon-College-Little.jpg"
+  },
+  {
+    "id": "elecciones-centro-estudiantes-little",
+    "sede": "little",
+    "category": "eventos",
+    "title": "Elección del Centro de Estudiantes",
+    "description": "Fomento de la educación ciudadana y democrática mediante las votaciones del centro de alumnos en Falcon Little.",
+    "image": "https://falconcollege.cl/wp-content/uploads/2023/05/ELECCIONES-CENTRO-DE-ESTUDIANTES-FALCON-COLLEGE-LITTLE-0012.jpg"
+  },
+  {
+    "id": "semana-libro-1-little",
+    "sede": "little",
+    "category": "eventos",
+    "title": "Semana de la Convivencia y del Libro (Presentaciones)",
+    "description": "Los estudiantes realizan exposiciones y representaciones sobre sus historias y personajes literarios favoritos.",
+    "image": "https://falconcollege.cl/wp-content/uploads/2023/05/SEMANA-DE-LA-CONVIVENCIA-Y-DEL-LIBRO-Falcon-College-Little-140352.jpg"
+  },
+  {
+    "id": "semana-libro-2-little",
+    "sede": "little",
+    "category": "eventos",
+    "title": "Semana de la Convivencia y del Libro (Representación Dramática)",
+    "description": "Actividades teatrales y de dramatización preparadas por los alumnos para fomentar la lectura grupal y el compañerismo.",
+    "image": "https://falconcollege.cl/wp-content/uploads/2023/05/SEMANA-DE-LA-CONVIVENCIA-Y-DEL-LIBRO-Falcon-College-Little-140406.jpg"
+  },
+  {
+    "id": "semana-libro-3-little",
+    "sede": "little",
+    "category": "eventos",
+    "title": "Semana de la Convivencia y del Libro (Lectura al Aire Libre)",
+    "description": "Compartiendo la pasión por la lectura en un ambiente distendido en el patio principal de nuestro establecimiento.",
+    "image": "https://falconcollege.cl/wp-content/uploads/2023/05/SEMANA-DE-LA-CONVIVENCIA-Y-DEL-LIBRO-Falcon-College-Little-105555.jpg"
+  },
+  {
+    "id": "taller-arte-little",
+    "sede": "little",
+    "category": "clases",
+    "title": "Taller de Arte y Expresión Plástica",
+    "description": "Potenciando la creatividad y motricidad mediante proyectos de pintura, modelado y artes visuales.",
+    "image": "https://falconcollege.cl/wp-content/uploads/2022/12/image_67228673.jpg"
+  },
+  {
+    "id": "fiestas-patrias-little",
+    "sede": "little",
+    "category": "clases",
+    "title": "Manualidades de Fiestas Patrias",
+    "description": "Trabajos artísticos tradicionales creados por nuestros alumnos para conmemorar las festividades nacionales chilenas.",
+    "image": "https://falconcollege.cl/wp-content/uploads/2022/12/image_67232257.jpg"
+  },
+  {
+    "id": "cierre-ano-little",
+    "sede": "little",
+    "category": "eventos",
+    "title": "Presentación de Cierre de Año",
+    "description": "Hitos y ceremonias de fin de año escolar, destacando el progreso, esfuerzo y logros de todos nuestros estudiantes.",
+    "image": "https://falconcollege.cl/wp-content/uploads/2022/12/image_67530753.jpg"
+  },
+  {
+    "id": "taller-deportivo-little",
+    "sede": "little",
+    "category": "eventos",
+    "title": "Taller Deportivo Falcon Little",
+    "description": "Estudiantes del ciclo básico participando de disciplinas corporativas y dinámicas de psicomotricidad grupal.",
+    "image": "https://falconcollege.cl/wp-content/uploads/2022/12/image_67183873.jpg"
+  },
+  {
+    "id": "graduacion-kinder-little",
+    "sede": "little",
+    "category": "eventos",
+    "title": "Graduación y Licenciatura de Kínder",
+    "description": "Una hermosa y significativa ceremonia que marca la transición de educación parvularia a educación básica.",
+    "image": "https://falconcollege.cl/wp-content/uploads/2022/12/image_67538433.jpg"
+  },
+  {
+    "id": "juego-patio-1-little",
+    "sede": "little",
+    "category": "infraestructura",
+    "title": "Jornada Recreativa en el Patio",
+    "description": "Juegos al aire libre y recreación dirigida en el patio principal para promover una sana convivencia.",
+    "image": "https://falconcollege.cl/wp-content/uploads/2023/05/IMG-20230428-WA0033.jpg"
+  },
+  {
+    "id": "dia-alumno-little",
+    "sede": "little",
+    "category": "eventos",
+    "title": "Día del Alumno: Convivencia Escolar",
+    "description": "Actividades recreativas especiales preparadas para celebrar a nuestros estudiantes de Falcon Little.",
+    "image": "https://falconcollege.cl/wp-content/uploads/2023/05/IMG-20230428-WA0034.jpg"
+  },
+  {
+    "id": "estimulacion-prebasica-little",
+    "sede": "little",
+    "category": "clases",
+    "title": "Actividades de Estimulación Temprana",
+    "description": "Juegos dirigidos para los niveles de pre-básica, potenciando la concentración y socialización.",
+    "image": "https://falconcollege.cl/wp-content/uploads/2023/05/IMG-20230428-WA0035.jpg"
+  },
+  {
+    "id": "taller-musica-little",
+    "sede": "little",
+    "category": "clases",
+    "title": "Taller de Música y Canto",
+    "description": "Clases prácticas de iniciación musical y rítmica corporal para los estudiantes de básica.",
+    "image": "https://falconcollege.cl/wp-content/uploads/2023/05/IMG-20230428-WA0036.jpg"
+  },
+  {
+    "id": "psicomotricidad-patio-little",
+    "sede": "little",
+    "category": "infraestructura",
+    "title": "Juegos Lúdicos de Psicomotricidad",
+    "description": "Estudiantes participando en circuitos de destreza motriz y coordinación en el patio lúdico.",
+    "image": "https://falconcollege.cl/wp-content/uploads/2023/05/IMG-20230428-WA0042.jpg"
+  },
+  {
+    "id": "lab-ciencias-media-new",
+    "sede": "media",
+    "category": "clases",
+    "title": "Laboratorio de Ciencias Naturales",
+    "description": "Estudiantes realizando experimentos químicos prácticos bajo supervisión docente en el laboratorio.",
+    "image": "https://falconcollege.cl/wp-content/uploads/2021/07/16C0BACA-752D-46E8-8CF7-459D4A57FC05.jpeg"
+  },
+  {
+    "id": "biblioteca-estudios-media-new",
+    "sede": "media",
+    "category": "infraestructura",
+    "title": "Estudios y Biblioteca Sede Media",
+    "description": "Alumnos utilizando los computadores y recursos de la biblioteca institucional para sus investigaciones académicas.",
+    "image": "https://falconcollege.cl/wp-content/uploads/2021/07/35B557C9-1887-4E91-BFE5-E8533D8EA0E5.jpeg"
+  },
+  {
+    "id": "taller-dibujo-cad-media-new",
+    "sede": "media",
+    "category": "clases",
+    "title": "Taller de Dibujo Técnico CAD",
+    "description": "Clases prácticas de modelado 3D y trazados técnicos asistidos por computador (CAD).",
+    "image": "https://falconcollege.cl/wp-content/uploads/2021/07/85BCC62E-7BD2-423F-A25A-B020D0D48A72.jpeg"
+  },
+  {
+    "id": "laboratorio-tp-media-new",
+    "sede": "media",
+    "category": "clases",
+    "title": "Laboratorio de Especialidades TP",
+    "description": "Prácticas guiadas de administración y desarrollo de maquetas tridimensionales en nuestras salas dedicadas.",
+    "image": "https://falconcollege.cl/wp-content/uploads/2021/07/D563B123-0CAB-4B38-BB0C-8399E7DDB788.jpeg"
+  },
+  {
+    "id": "clases-idiomas-media-new",
+    "sede": "media",
+    "category": "clases",
+    "title": "Clase de Idiomas y Recursos Digitales",
+    "description": "Uso de tecnologías interactivas y salas multimedia para potenciar la enseñanza del inglés.",
+    "image": "https://falconcollege.cl/wp-content/uploads/2021/07/35518151-8493-4389-B100-E6A66855A3C4.jpeg"
+  },
+  {
+    "id": "sala-informatica-media-new",
+    "sede": "media",
+    "category": "infraestructura",
+    "title": "Sala de Informática y Conectividad",
+    "description": "Estudiantes del ciclo media desarrollando competencias digitales en el laboratorio tecnológico.",
+    "image": "https://falconcollege.cl/wp-content/uploads/2021/07/69BA2743-A31F-44BC-96A0-E73F6F900B72.jpeg"
+  },
+  {
+    "id": "biblioteca-lectura-media-new",
+    "sede": "media",
+    "category": "infraestructura",
+    "title": "Biblioteca Escolar e Investigación",
+    "description": "Áreas cómodas y acondicionadas para fomentar la lectura activa y la colaboración grupal.",
+    "image": "https://falconcollege.cl/wp-content/uploads/2021/07/72279F52-4358-45CE-A4E0-A9D2AE5A809F.jpeg"
+  },
+  {
+    "id": "taller-practicas-admin-media",
+    "sede": "media",
+    "category": "clases",
+    "title": "Taller de Prácticas Administrativas",
+    "description": "Alumnos simulando procesos de recursos humanos y flujos documentales en la especialidad de Administración.",
+    "image": "https://falconcollege.cl/wp-content/uploads/2025/08/IMG_2420-scaled.jpeg"
+  },
+  {
+    "id": "presentaciones-tp-media",
+    "sede": "media",
+    "category": "eventos",
+    "title": "Presentaciones y Proyectos Escolares",
+    "description": "Exposiciones grupales de alumnos del ciclo técnico profesional frente a la comunidad escolar.",
+    "image": "https://falconcollege.cl/wp-content/uploads/2025/08/IMG_2422-scaled.jpeg"
+  },
+  {
+    "id": "proyectos-cad-dibujo-media",
+    "sede": "media",
+    "category": "clases",
+    "title": "Proyectos CAD en Dibujo Técnico",
+    "description": "Diseño y estructuración de maquetas y planos arquitectónicos por estudiantes de Dibujo Técnico.",
+    "image": "https://falconcollege.cl/wp-content/uploads/2025/08/IMG_2433-scaled.jpeg"
+  },
+  {
+    "id": "desarrollo-planos-manual-media",
+    "sede": "media",
+    "category": "clases",
+    "title": "Desarrollo de Planos Técnicos",
+    "description": "Ejecución de trazos manuales de precisión y uso de instrumental normalizado de dibujo técnico.",
+    "image": "https://falconcollege.cl/wp-content/uploads/2025/08/IMG_2434-scaled.jpeg"
+  },
+  {
+    "id": "clase-diseno-industrial-media",
+    "sede": "media",
+    "category": "clases",
+    "title": "Clase Teórica de Diseño Industrial",
+    "description": "Instrucciones metodológicas y normativas chilenas de edificación aplicadas a la especialidad.",
+    "image": "https://falconcollege.cl/wp-content/uploads/2025/08/IMG_2432-scaled.jpeg"
+  },
+  {
+    "id": "geometria-descriptiva-media",
+    "sede": "media",
+    "category": "clases",
+    "title": "Clase de Geometría Descriptiva",
+    "description": "Resolución de proyecciones ortogonales e isométricas en las pizarras de nuestras salas de dibujo.",
+    "image": "https://falconcollege.cl/wp-content/uploads/2025/08/IMG_2435-scaled.jpeg"
+  },
+  {
+    "id": "talleres-maquetas-vol-media",
+    "sede": "media",
+    "category": "clases",
+    "title": "Talleres y Equipamiento Técnico",
+    "description": "Alumnos trabajando en equipo para el armado de maquetas volumétricas y representaciones espaciales.",
+    "image": "https://falconcollege.cl/wp-content/uploads/2025/08/IMG_2445-scaled.jpeg"
+  },
+  {
+    "id": "trazado-lineal-tablero-media",
+    "sede": "media",
+    "category": "clases",
+    "title": "Trazado Lineal en Tablero de Dibujo",
+    "description": "Experiencias formativas de dibujo lineal en mesa técnica bajo estándares mineros y civiles.",
+    "image": "https://falconcollege.cl/wp-content/uploads/2025/08/IMG_2443-scaled.jpeg"
+  },
+  {
+    "id": "exhibicion-admin-media",
+    "sede": "media",
+    "category": "eventos",
+    "title": "Exhibición de Proyectos de Administración",
+    "description": "Estudiantes del área de Administración mostrando su proyecto final sobre legislación y contratos laborales.",
+    "image": "https://falconcollege.cl/wp-content/uploads/2025/08/IMG_2542-scaled.jpeg"
+  },
+  {
+    "id": "feria-tp-stands-media",
+    "sede": "media",
+    "category": "eventos",
+    "title": "Feria Técnico Profesional",
+    "description": "Stands demostrativos interactivos donde los alumnos exponen sus destrezas a los cursos menores.",
+    "image": "https://falconcollege.cl/wp-content/uploads/2025/08/IMG_2543-scaled.jpeg"
+  },
+  {
+    "id": "talleres-deportivos-media",
+    "sede": "media",
+    "category": "eventos",
+    "title": "Talleres Extraprogramáticos Sede Media",
+    "description": "Encuentros deportivos, recreativos y artísticos de integración estudiantil en el patio central.",
+    "image": "https://falconcollege.cl/wp-content/uploads/2021/08/13854DA1-A208-4932-A85E-FE44FC0011E8.jpeg"
+  },
+  {
+    "id": "dia-tp-celebracion-media",
+    "sede": "media",
+    "category": "eventos",
+    "title": "Jornada del Día del Técnico Profesional",
+    "description": "Celebraciones anuales y talleres abiertos a la comunidad de Quinta Normal sobre nuestras especialidades.",
+    "image": "https://falconcollege.cl/wp-content/uploads/2024/11/IMG_7266-scaled.webp"
+  },
+  {
+    "id": "taller-liderazgo-media",
+    "sede": "media",
+    "category": "clases",
+    "title": "Taller de Liderazgo y Trabajo Colaborativo",
+    "description": "Dinámicas grupales en la sala de clases orientadas al desarrollo de habilidades blandas.",
+    "image": "https://falconcollege.cl/wp-content/uploads/2024/11/IMG_6639-scaled.webp"
   }
 ]

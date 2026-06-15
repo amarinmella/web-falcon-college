@@ -14,6 +14,8 @@ export default defineConfig({
         admisionMedia: resolve(__dirname, 'admision-media.html'),
         admisionLittle: resolve(__dirname, 'admision-little.html'),
         tecnicoProfesional: resolve(__dirname, 'tecnico-profesional.html'),
+        especialidadAdministracion: resolve(__dirname, 'especialidad-administracion.html'),
+        especialidadDibujoTecnico: resolve(__dirname, 'especialidad-dibujo-tecnico.html'),
         academicoLittle: resolve(__dirname, 'academico-little.html'),
         contactoMedia: resolve(__dirname, 'contacto-media.html'),
         contactoLittle: resolve(__dirname, 'contacto-little.html'),
