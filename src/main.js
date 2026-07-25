@@ -876,4 +876,39 @@ document.addEventListener('DOMContentLoaded', () => {
             }
         });
     });
+
+    // 6. UI/UX Pro Max: Animated Stats Counters
+    const counters = document.querySelectorAll('[data-count]');
+    if (counters.length > 0 && 'IntersectionObserver' in window) {
+        const counterObserver = new IntersectionObserver((entries, observer) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    const counter = entry.target;
+                    const target = +counter.getAttribute('data-count');
+                    const suffix = counter.getAttribute('data-suffix') || '';
+                    const prefix = counter.getAttribute('data-prefix') || '';
+                    const duration = 1500; // ms
+                    const stepTime = 20;
+                    const steps = duration / stepTime;
+                    const increment = target / steps;
+                    let current = 0;
+
+                    const timer = setInterval(() => {
+                        current += increment;
+                        if (current >= target) {
+                            counter.textContent = prefix + target + suffix;
+                            clearInterval(timer);
+                        } else {
+                            counter.textContent = prefix + Math.floor(current) + suffix;
+                        }
+                    }, stepTime);
+
+                    observer.unobserve(counter);
+                }
+            });
+        }, { threshold: 0.5 });
+
+        counters.forEach(c => counterObserver.observe(c));
+    }
 });
+

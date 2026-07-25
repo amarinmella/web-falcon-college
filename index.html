@@ -1,103 +1,212 @@
 <!DOCTYPE html>
-<html class="light" lang="es" style="">
+<html class="light" lang="es">
 <head>
     <meta charset="utf-8">
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
-    <title>Falcon College - Bienvenido</title>
+    <title>Falcon College | Fundación Educacional Quinta Normal</title>
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com" rel="preconnect">
+    <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,600;0,700;1,600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet">
     
     <!-- Vite CSS -->
     <link rel="stylesheet" href="./src/input.css">
-    
-    <link href="https://fonts.googleapis.com" rel="preconnect">
-    <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect">
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&amp;family=Playfair+Display:wght@600;700&amp;display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet">
 </head>
-<body class="bg-primary-container text-on-primary min-h-screen flex flex-col font-body-md relative overflow-x-hidden">
-    <div class="absolute inset-0 bg-gradient-to-b from-primary-container via-primary-container/90 to-surface-container-highest/20 z-0 mix-blend-multiply"></div>
-    <div class="absolute inset-0 bg-pattern z-0"></div>
-    <main class="flex-grow flex flex-col justify-center items-center px-margin-mobile md:px-margin-desktop py-section-padding z-10 w-full max-w-container-max mx-auto">
-        <div class="text-center mb-stack-lg flex flex-col items-center">
-            <img src="logo-falcon-college_.svg" alt="Falcon College Logo" class="h-[120px] w-auto mb-stack-md drop-shadow-lg rounded-2xl animate-float logo-glow-hover">
-            <h1 class="font-display-lg-mobile md:font-display-lg text-on-primary mb-stack-sm drop-shadow-sm animate-fade-in-up">
-                Bienvenido a Falcon College
-            </h1>
-            <p class="font-body-lg text-inverse-primary max-w-2xl animate-fade-in-up-delay-1">
-                Selecciona el colegio que deseas visitar
-            </p>
-        </div>
-        <div class="grid grid-cols-1 md:grid-cols-2 gap-stack-lg w-full max-w-5xl animate-fade-in-up-delay-2">
-            <!-- Sede Little -->
-            <a class="group relative rounded-xl overflow-hidden shadow-md hover:shadow-xl hover:-translate-y-2 hover:shadow-[0_20px_40px_-5px_rgba(242,106,90,0.25)] hover:border-warm-coral/40 transition-all duration-500 ease-[cubic-bezier(0.16,1,0.3,1)] bg-surface border border-outline-variant/20 aspect-[4/3] md:aspect-[3/2] flex flex-col justify-end" href="falcon-little.html">
-                <div class="absolute inset-0 z-0">
-                    <img alt="Falcon College Little" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" data-alt="Alumnos de Falcon Little en clases participativas en el aula." src="https://falconcollege.cl/wp-content/uploads/2025/08/IMG_2638-scaled.jpeg">
-                    <div class="absolute inset-0 bg-gradient-to-t from-primary/90 via-primary/50 to-transparent"></div>
+<body class="bg-primary text-on-primary min-h-screen flex flex-col font-body-md relative overflow-x-hidden antialiased">
+    <!-- Ambient Background Light Auras -->
+    <div class="ambient-aura w-[600px] h-[600px] bg-[#f26a5a] -top-32 -left-32 z-0"></div>
+    <div class="ambient-aura w-[700px] h-[700px] bg-[#314865] top-1/3 -right-40 z-0"></div>
+    <div class="ambient-aura w-[500px] h-[500px] bg-[#ffdf9b] bottom-10 left-1/4 z-0"></div>
+
+    <div class="absolute inset-0 bg-gradient-to-b from-primary via-primary/95 to-[#051329] z-0"></div>
+    <div class="absolute inset-0 bg-pattern z-0 opacity-40"></div>
+
+    <!-- Announcement Top Notification -->
+    <div class="relative z-20 bg-gradient-to-r from-[#0a2540] via-[#1a385c] to-[#0a2540] border-b border-white/10 text-white py-2.5 px-4 text-center text-xs md:text-sm font-medium shadow-sm flex items-center justify-center gap-2">
+        <span class="inline-flex items-center gap-1.5 bg-emerald-500/20 text-emerald-300 border border-emerald-500/30 px-2.5 py-0.5 rounded-full text-xs font-semibold badge-ping">
+            <span class="w-1.5 h-1.5 rounded-full bg-emerald-400"></span> Proceso 2027
+        </span>
+        <span>¡Admisiones abiertas en ambas sedes de Quinta Normal!</span>
+        <a href="admision-media.html" class="hidden sm:inline-flex items-center text-tertiary-fixed hover:underline font-bold ml-2">
+            Postular aquí <span class="material-symbols-outlined text-sm ml-0.5">chevron_right</span>
+        </a>
+    </div>
+
+    <!-- Main Container -->
+    <main class="flex-grow flex flex-col justify-center items-center px-margin-mobile md:px-margin-desktop py-12 md:py-16 z-10 w-full max-w-container-max mx-auto">
+        <!-- Hero Header -->
+        <header class="text-center mb-12 flex flex-col items-center max-w-3xl">
+            <div class="relative mb-6 group cursor-pointer">
+                <div class="absolute -inset-1 bg-gradient-to-r from-warm-coral to-tertiary-fixed rounded-3xl blur opacity-30 group-hover:opacity-75 transition duration-500"></div>
+                <div class="relative bg-[#07192e] border border-white/15 p-4 rounded-2xl shadow-2xl">
+                    <img src="logo-falcon-college_.svg" alt="Falcon College Logo" class="h-[100px] md:h-[120px] w-auto transition-transform duration-500 group-hover:scale-105">
                 </div>
-                <div class="relative z-10 p-stack-lg flex flex-col h-full justify-between">
-                    <div class="self-start bg-warm-coral text-white px-3 py-1 rounded-full font-label-md shadow-sm mb-auto">
-                        <span class="material-symbols-outlined align-middle text-[16px] mr-1">child_care</span>
-                        Pre-Básica y Básica
-                    </div>
-                    <div class="mt-auto">
-                        <h2 class="font-headline-md text-on-primary mb-stack-sm group-hover:text-warm-coral transition-colors">
-                            Falcon College Little
-                        </h2>
-                        <p class="font-body-md text-on-primary/80 mb-2">
-                            Pre-Kinder a 8° Básico
-                        </p>
-                        <div class="flex items-center text-on-primary/60 font-body-md mb-stack-md">
-                            <span class="material-symbols-outlined text-[18px] mr-2">location_on</span>
-                            Mapocho 5488, Quinta Normal
-                        </div>
-                        <div class="inline-flex items-center font-label-md text-warm-coral group-hover:translate-x-2 transition-transform">
-                            Ingresar <span class="material-symbols-outlined ml-1">arrow_forward</span>
-                        </div>
-                    </div>
-                </div>
-            </a>
+            </div>
             
-            <!-- Sede Principal -->
-            <a class="group relative rounded-xl overflow-hidden shadow-md hover:shadow-xl hover:-translate-y-2 hover:shadow-[0_20px_40px_-5px_rgba(176,200,235,0.25)] hover:border-inverse-primary/40 transition-all duration-500 ease-[cubic-bezier(0.16,1,0.3,1)] bg-surface border border-outline-variant/20 aspect-[4/3] md:aspect-[3/2] flex flex-col justify-end" href="falcon-college.html">
-                <div class="absolute inset-0 z-0">
-                    <img alt="Falcon College High School" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" data-alt="Estudiantes de Enseñanza Media exponiendo proyectos técnico-profesionales." src="https://falconcollege.cl/wp-content/uploads/2025/08/IMG_2422-scaled.jpeg">
-                    <div class="absolute inset-0 bg-gradient-to-t from-primary/90 via-primary/50 to-transparent"></div>
+            <div class="inline-flex items-center gap-2 bg-white/10 backdrop-blur-md border border-white/15 px-4 py-1.5 rounded-full text-tertiary-fixed font-label-md text-xs uppercase tracking-widest mb-4 shadow-sm animate-fade-in-up">
+                <span class="material-symbols-outlined text-sm">school</span> Fundación Educacional Falcon College
+            </div>
+            
+            <h1 class="font-display-lg-mobile md:font-display-lg text-white mb-4 drop-shadow-md animate-fade-in-up leading-tight">
+                Selecciona la Sede Educativa
+            </h1>
+            
+            <p class="font-body-lg text-inverse-primary/90 max-w-xl animate-fade-in-up-delay-1 leading-relaxed text-sm md:text-base">
+                Brindamos educación integral desde Pre-Kinder hasta 4° Medio Técnico Profesional con dos sedes especializadas en Quinta Normal.
+            </p>
+        </header>
+
+        <!-- Campus Selection Cards Grid -->
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 w-full max-w-5xl animate-fade-in-up-delay-2 mb-16">
+            
+            <!-- Sede Falcon College Little -->
+            <div class="group relative rounded-2xl overflow-hidden glass-card shadow-2xl border border-white/15 hover:border-warm-coral/60 transition-all duration-500 ease-out flex flex-col justify-between hover:-translate-y-2 hover:shadow-[0_25px_50px_-12px_rgba(242,106,90,0.3)]">
+                <!-- Image Background Overlay -->
+                <div class="absolute inset-0 z-0 overflow-hidden">
+                    <img alt="Falcon College Little" class="w-full h-full object-cover transition-transform duration-700 ease-out group-hover:scale-110 opacity-40 group-hover:opacity-50" src="https://falconcollege.cl/wp-content/uploads/2025/08/IMG_2638-scaled.jpeg">
+                    <div class="absolute inset-0 bg-gradient-to-t from-[#08182b] via-[#08182b]/80 to-transparent"></div>
                 </div>
-                <div class="relative z-10 p-stack-lg flex flex-col h-full justify-between">
-                    <div class="self-start bg-tertiary-fixed text-on-tertiary-fixed px-3 py-1 rounded-full font-label-md shadow-sm mb-auto">
-                        <span class="material-symbols-outlined align-middle text-[16px] mr-1">school</span>
-                        Enseñanza Media
+
+                <!-- Card Header Tag -->
+                <div class="relative z-10 p-6 flex justify-between items-start">
+                    <span class="bg-warm-coral text-white font-bold text-xs px-3.5 py-1.5 rounded-full shadow-lg flex items-center gap-1.5">
+                        <span class="material-symbols-outlined text-sm">child_care</span> Pre-Básica y Básica
+                    </span>
+                    <span class="text-xs text-white/70 bg-black/40 backdrop-blur-md px-3 py-1 rounded-full border border-white/10">
+                        Pre-Kinder a 8° Básico
+                    </span>
+                </div>
+
+                <!-- Card Body Content -->
+                <div class="relative z-10 p-6 md:p-8 mt-16 md:mt-24 flex flex-col justify-end">
+                    <h2 class="font-headline-md text-white text-2xl md:text-3xl mb-2 group-hover:text-warm-coral transition-colors duration-300">
+                        Falcon College Little
+                    </h2>
+                    
+                    <p class="text-white/80 text-sm mb-4 line-clamp-2">
+                        Formación de valores primarios, ambiente seguro, contención afectiva y desarrollo de habilidades iniciales con docentes comprometidos.
+                    </p>
+
+                    <div class="space-y-2 mb-6 text-xs md:text-sm text-white/70">
+                        <div class="flex items-center gap-2">
+                            <span class="material-symbols-outlined text-warm-coral text-base">location_on</span>
+                            <span>Mapocho 5488, Quinta Normal</span>
+                        </div>
+                        <div class="flex items-center gap-2">
+                            <span class="material-symbols-outlined text-warm-coral text-base">verified</span>
+                            <span>Talleres Jornada Escolar Completa (JECD)</span>
+                        </div>
                     </div>
-                    <div class="mt-auto">
-                        <h2 class="font-headline-md text-on-primary mb-stack-sm group-hover:text-tertiary-fixed transition-colors">
-                            Falcon College
-                        </h2>
-                        <p class="font-body-md text-on-primary/80 mb-2">
-                            1° a 4° Medio - Técnico Profesional
-                        </p>
-                        <div class="flex items-center text-on-primary/60 font-body-md mb-stack-md">
-                            <span class="material-symbols-outlined text-[18px] mr-2">location_on</span>
-                            Mapocho 5740, Quinta Normal
-                        </div>
-                        <div class="inline-flex items-center font-label-md text-tertiary-fixed group-hover:translate-x-2 transition-transform">
-                            Ingresar <span class="material-symbols-outlined ml-1">arrow_forward</span>
-                        </div>
+
+                    <!-- Action Buttons -->
+                    <div class="flex flex-col sm:flex-row gap-3 pt-2 border-t border-white/10">
+                        <a href="falcon-little.html" class="flex-1 bg-warm-coral hover:bg-[#e05646] text-white font-semibold text-sm px-5 py-3 rounded-xl transition-all duration-300 text-center shadow-md flex items-center justify-center gap-2 group/btn">
+                            Ingresar a la Sede <span class="material-symbols-outlined text-base transition-transform group-hover/btn:translate-x-1">arrow_forward</span>
+                        </a>
+                        <a href="admision-little.html" class="bg-white/10 hover:bg-white/20 text-white font-semibold text-sm px-4 py-3 rounded-xl border border-white/20 transition-colors text-center backdrop-blur-sm">
+                            Admisión Little
+                        </a>
                     </div>
                 </div>
-            </a>
+            </div>
+
+            <!-- Sede Falcon College High School -->
+            <div class="group relative rounded-2xl overflow-hidden glass-card shadow-2xl border border-white/15 hover:border-tertiary-fixed/60 transition-all duration-500 ease-out flex flex-col justify-between hover:-translate-y-2 hover:shadow-[0_25px_50px_-12px_rgba(255,223,155,0.3)]">
+                <!-- Image Background Overlay -->
+                <div class="absolute inset-0 z-0 overflow-hidden">
+                    <img alt="Falcon College High School" class="w-full h-full object-cover transition-transform duration-700 ease-out group-hover:scale-110 opacity-40 group-hover:opacity-50" src="https://falconcollege.cl/wp-content/uploads/2025/08/IMG_2422-scaled.jpeg">
+                    <div class="absolute inset-0 bg-gradient-to-t from-[#08182b] via-[#08182b]/80 to-transparent"></div>
+                </div>
+
+                <!-- Card Header Tag -->
+                <div class="relative z-10 p-6 flex justify-between items-start">
+                    <span class="bg-tertiary-fixed text-on-tertiary-fixed font-bold text-xs px-3.5 py-1.5 rounded-full shadow-lg flex items-center gap-1.5">
+                        <span class="material-symbols-outlined text-sm">school</span> Enseñanza Media TP
+                    </span>
+                    <span class="text-xs text-white/70 bg-black/40 backdrop-blur-md px-3 py-1 rounded-full border border-white/10">
+                        1° a 4° Medio
+                    </span>
+                </div>
+
+                <!-- Card Body Content -->
+                <div class="relative z-10 p-6 md:p-8 mt-16 md:mt-24 flex flex-col justify-end">
+                    <h2 class="font-headline-md text-white text-2xl md:text-3xl mb-2 group-hover:text-tertiary-fixed transition-colors duration-300">
+                        Falcon College
+                    </h2>
+                    
+                    <p class="text-white/80 text-sm mb-4 line-clamp-2">
+                        Educación Científico-Humanista y Formación Técnico-Profesional de Excelencia en Administración y Dibujo Técnico.
+                    </p>
+
+                    <div class="space-y-2 mb-6 text-xs md:text-sm text-white/70">
+                        <div class="flex items-center gap-2">
+                            <span class="material-symbols-outlined text-tertiary-fixed text-base">location_on</span>
+                            <span>Mapocho 5740, Quinta Normal</span>
+                        </div>
+                        <div class="flex items-center gap-2">
+                            <span class="material-symbols-outlined text-tertiary-fixed text-base">engineering</span>
+                            <span>Especialidades TP: Administración & Dibujo Técnico</span>
+                        </div>
+                    </div>
+
+                    <!-- Action Buttons -->
+                    <div class="flex flex-col sm:flex-row gap-3 pt-2 border-t border-white/10">
+                        <a href="falcon-college.html" class="flex-1 bg-tertiary-fixed hover:bg-tertiary-fixed-dim text-on-tertiary-fixed font-bold text-sm px-5 py-3 rounded-xl transition-all duration-300 text-center shadow-md flex items-center justify-center gap-2 group/btn">
+                            Ingresar a la Sede <span class="material-symbols-outlined text-base transition-transform group-hover/btn:translate-x-1">arrow_forward</span>
+                        </a>
+                        <a href="admision-media.html" class="bg-white/10 hover:bg-white/20 text-white font-semibold text-sm px-4 py-3 rounded-xl border border-white/20 transition-colors text-center backdrop-blur-sm">
+                            Admisión Media
+                        </a>
+                    </div>
+                </div>
+            </div>
+
         </div>
 
+        <!-- Institutional Impact Stats Counter Bar -->
+        <section class="w-full max-w-5xl glass-panel rounded-2xl p-6 md:p-8 shadow-xl border border-white/15 scroll-reveal mb-12">
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-6 text-center divide-y md:divide-y-0 md:divide-x divide-white/10">
+                <div class="pt-3 md:pt-0">
+                    <span class="block text-3xl md:text-4xl font-extrabold text-tertiary-fixed font-display-lg" data-count="25" data-suffix="+">0</span>
+                    <span class="text-xs md:text-sm text-white/70 uppercase tracking-wider font-semibold mt-1 block">Años de Trayectoria</span>
+                </div>
+                <div class="pt-3 md:pt-0">
+                    <span class="block text-3xl md:text-4xl font-extrabold text-tertiary-fixed font-display-lg" data-count="95" data-suffix="%">0</span>
+                    <span class="text-xs md:text-sm text-white/70 uppercase tracking-wider font-semibold mt-1 block">Titulación TP</span>
+                </div>
+                <div class="pt-3 md:pt-0">
+                    <span class="block text-3xl md:text-4xl font-extrabold text-warm-coral font-display-lg" data-count="2" data-suffix=" Sedes">0</span>
+                    <span class="text-xs md:text-sm text-white/70 uppercase tracking-wider font-semibold mt-1 block">Quinta Normal</span>
+                </div>
+                <div class="pt-3 md:pt-0">
+                    <span class="block text-3xl md:text-4xl font-extrabold text-emerald-400 font-display-lg" data-count="100" data-suffix="%">0</span>
+                    <span class="text-xs md:text-sm text-white/70 uppercase tracking-wider font-semibold mt-1 block">Gratuito (Subvencionado)</span>
+                </div>
+            </div>
+        </section>
 
     </main>
-    <footer class="w-full z-10 py-stack-md border-t border-white/10 bg-primary-container/50 backdrop-blur-sm mt-auto">
-        <div class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop flex flex-col md:flex-row justify-between items-center gap-4">
-            <p class="font-body-md text-inverse-primary/70 text-sm text-center md:text-left">
-                © 2026 Fundación Educacional Falcon College
-            </p>
-            <div class="flex gap-stack-md font-label-md">
-                <a class="text-inverse-primary/80 hover:text-tertiary-fixed transition-colors" href="#">Contacto</a>
-                <a class="text-inverse-primary/80 hover:text-tertiary-fixed transition-colors" href="#">Trabaja con nosotros</a>
+
+    <!-- Footer -->
+    <footer class="w-full z-10 py-6 border-t border-white/10 bg-[#041021]/80 backdrop-blur-md mt-auto">
+        <div class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop flex flex-col md:flex-row justify-between items-center gap-4 text-xs md:text-sm">
+            <div class="flex items-center gap-3">
+                <img src="logo-falcon-college_.svg" alt="Falcon Logo" class="h-7 w-auto opacity-80">
+                <p class="text-white/60">
+                    © 2026 Fundación Educacional Falcon College. Todos los derechos reservados.
+                </p>
+            </div>
+            <div class="flex gap-6 font-semibold">
+                <a class="text-white/70 hover:text-tertiary-fixed transition-colors" href="contacto-media.html">Contacto Directo</a>
+                <a class="text-white/70 hover:text-tertiary-fixed transition-colors" href="convivencia-media.html">Reglamento RICE</a>
+                <a class="text-white/70 hover:text-tertiary-fixed transition-colors" href="admision-media.html">Postulaciones SAE</a>
             </div>
         </div>
     </footer>
+
+    <!-- Vite JS Script -->
+    <script type="module" src="/src/main.js"></script>
 </body>
 </html>

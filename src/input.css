@@ -149,7 +149,94 @@
     box-shadow: 0 10px 25px rgba(37, 211, 102, 0.5), 0 0 0 12px rgba(37, 211, 102, 0);
   }
 }
-.animate-whatsapp-pulse {
-  animation: whatsappPulse 2s infinite;
+/* UI/UX Pro Max Glassmorphism & Ambient Glow Utilities */
+.glass-panel {
+  background: rgba(10, 37, 64, 0.78);
+  backdrop-filter: blur(16px) saturate(180%);
+  -webkit-backdrop-filter: blur(16px) saturate(180%);
+  border: 1px solid rgba(255, 255, 255, 0.12);
 }
+
+.glass-card {
+  background: rgba(255, 255, 255, 0.08);
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+.glass-card-light {
+  background: rgba(255, 255, 255, 0.88);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  box-shadow: 0 8px 32px 0 rgba(0, 15, 34, 0.06);
+}
+
+.ambient-aura {
+  position: absolute;
+  border-radius: 9999px;
+  filter: blur(90px);
+  opacity: 0.45;
+  pointer-events: none;
+}
+
+/* Shimmer CTA animation */
+@keyframes shimmerSweep {
+  0% {
+    background-position: -200% 0;
+  }
+  100% {
+    background-position: 200% 0;
+  }
+}
+
+.btn-shimmer {
+  background: linear-gradient(90deg, #ffdf9b 0%, #ffffff 50%, #ffdf9b 100%);
+  background-size: 200% 100%;
+  animation: shimmerSweep 4s infinite linear;
+}
+
+.btn-shimmer-coral {
+  background: linear-gradient(90deg, #f26a5a 0%, #ff9e93 50%, #f26a5a 100%);
+  background-size: 200% 100%;
+  animation: shimmerSweep 4s infinite linear;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: #0a2540;
+}
+::-webkit-scrollbar-thumb {
+  background: #314865;
+  border-radius: 5px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #e4c278;
+}
+
+/* Pulse badge glow */
+.badge-ping {
+  position: relative;
+}
+.badge-ping::after {
+  content: '';
+  position: absolute;
+  top: 2px;
+  right: 2px;
+  width: 8px;
+  height: 8px;
+  background-color: #22c55e;
+  border-radius: 50%;
+  box-shadow: 0 0 8px #22c55e;
+  animation: pulseGreen 2s infinite;
+}
+
+@keyframes pulseGreen {
+  0%, 100% { opacity: 1; transform: scale(1); }
+  50% { opacity: 0.4; transform: scale(1.4); }
+}
+
 
